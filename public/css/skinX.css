@@ -40,6 +40,17 @@ section {
      color: #5F6C78; 
 }
 
+#mainText{
+     font-family: Lato;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 30px;
+     line-height: 40px;
+     color: #FFFFFF; 
+     border-radius: 10px;
+     background: #7892A9;
+}
+
 #infoText{
      font-family: Lato;
      font-style: normal;
@@ -70,8 +81,8 @@ section {
      background:#D0D7DD;;
 }
 
-.barImg {
-     position: center;
+#barImg img {
+     vertical-align: middle;
 }
 
 
