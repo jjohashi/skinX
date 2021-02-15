@@ -1,19 +1,65 @@
 /* applies to anything of class "example-class-selector" */
-.example-class-selector {
+/*.example-class-selector {
      margin-top: 2em;
 }
 
-/* applies to any <p> descendants of an element of class "example-class-selector" */
+ applies to any <p> descendants of an element of class "example-class-selector" 
 .example-class-selector p {
-     /* Colors are in hexadecimal: http://www.colorpicker.com/ */     
+     /* Colors are in hexadecimal: http://www.colorpicker.com/   
      color: #CC00AA;
 }
 
 h1, h2, h3, h4, h5 {
      color: #8382BF;
+}*/
+section {
+     width: 375px;
+     height: 600px;
+     background: lightgray;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
 }
 
-.resize img{
-     max-width: 300px;
-     
-}
+img{
+     width: 100%;   
+     height: 25%; 
+     /*margin: 5%;   
+     padding: 5%;  */
+ }
+
+ h1{
+     width: 100%;
+     height: 5%;
+     text-align: center;
+     color: aqua;
+ }
+
+
+
+
+
+/*.main-img{
+     position: absolute;
+     width: 60%;
+}*/
+
+/*.container-fluid {
+     padding-top: 50px;
+     padding-left: 50px;
+     padding-bottom: 50px;
+     padding-right: 50px;
+}*/
+/*@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) {
+         #title {
+              text-align: center;
+         }
+
+         #main-img{
+              max-width: 50%;
+              position: static;
+         }
+     }*/
