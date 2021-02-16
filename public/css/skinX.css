@@ -37,7 +37,8 @@ section {
      font-style: normal;
      font-weight: bold;
      font-size: 30px;
-     color: #5F6C78; 
+     /*color: #5F6C78;*/
+     color:aqua;
 }
 
 #mainText{
