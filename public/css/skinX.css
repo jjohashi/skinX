@@ -33,12 +33,10 @@ section {
  }
 
  #mainTitle{
-     /*padding-top: 4%;*/
      font-family: Lato;
      font-style: normal;
      font-weight: bold;
      font-size: 30px;
-     /*line-height: 40px;*/
      color: #5F6C78; 
 }
 
@@ -47,7 +45,6 @@ section {
      font-style: normal;
      font-weight: bold;
      font-size: 30px;
-     /*line-height: 40px;*/
      color: #FFFFFF; 
      border-radius: 10px;
      background: #7892A9;
