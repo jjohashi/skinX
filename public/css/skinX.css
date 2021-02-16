@@ -37,8 +37,8 @@ section {
      font-style: normal;
      font-weight: bold;
      font-size: 30px;
-     /*color: #5F6C78;*/
-     color:aqua;
+     color: #5F6C78;
+     /*color:aqua;*/
 }
 
 #mainText{
@@ -78,16 +78,11 @@ section {
 
 #navBar{
      height: 52px;
-     background:#D0D7DD;;
-}
-
-#barImg img {
-     vertical-align: middle;
+     background:#D0D7DD;
+     border-radius: 10px;
 }
 
 #homeButton {
-     text-align: center;
-     padding: 3% 19%;
      font-family: Lato;
      font-style: normal;
      font-weight: normal;

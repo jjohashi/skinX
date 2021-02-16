@@ -18,9 +18,9 @@
 	</section>*/-->
 
 	<div class='container'>
-		<div class='row'>
-			<img class='rounded mx-auto d-block' id='iphoneBar' src="/image/ipImg.png" alt='iphonetop_image'>
-		</div>
+		<!--<div class='row'>
+			<img class='rounded mx-auto d-block' id='iphoneBar' src="/image/iphonetop.svg" alt='iphonetop_image'>
+		</div>-->
 
 		<p class='text-center' id='mainTitle'>WELCOME TO skinX</p>
 		<p class='text-center' id='infoText'>Good skin care products can help improve the appearance and 
@@ -30,7 +30,7 @@
 
 		<div class='row'>
 			<div class='col-1'></div>
-			<div class='col-10' id='homeBox'>
+			<div class='col-10 my-2' id='homeBox'>
 				<!--<div class='row-1'></div>
 				<div class='row-2'>
 					<p class='text-center' id='mainText'>Skincare Education</p>
@@ -42,15 +42,29 @@
 					<img class='rounded mx-auto d-block' src='/image/homeimg.svg' alt='home-img'>
 				</div>
 				<div class='row-1'></div>-->
-				<div class='row'style='margin:4%; text-align:center;'>
-					<a class='btn btn-secondary btb-lg' id='homeButton' href='education' 
+				<div class='row mx-auto my-4 d-block'>
+					<a class='btn btn-secondary mx-auto d-block' id='homeButton' href='education' 
+					role="button">Skincare Education</a>
+				</div>
+
+				<div class='row mx-auto my-4 d-block'>
+					<a class='btn btn-secondary mx-auto d-block' id='homeButton' href='profile' 
+					role="button">Take Skincare Quiz</a>
+				</div>
+
+				<div class='row mx-auto my-5 d-block'>
+					<img class='rounded mx-auto d-block' src='/image/homeImgBW.svg' alt='home-img'>
+				</div>
+
+				<!--<div class='row'style='margin:4%; text-align:center;'>
+					<a class='btn btn-secondary mx-auto d-block' id='homeButton' href='education' 
 					role="button">Skincare Education</a>
 				</div>
 
 				<div class='row'style='margin:4%; text-align:center;'>
-					<a class='btn btn-secondary btb-lg' id='homeButton' href='profile' 
+					<a class='btn btn-secondary mx-auto d-block' id='homeButton' href='profile' 
 					role="button">Take Skincare Quiz</a>
-				</div>
+				</div>-->
 			
 			</div>
 			<div class='col-1'></div>
@@ -64,22 +78,27 @@
 		</div>-->
 
 
-		<div class='row' id='navBar'>
-			<div class='col'>
-				<a href='/articles' class='thumbnail'>
-				<button class="btn btn-primary btn-lg"><img id='barImg' src='/image/homeButton.svg' alt='home-button'></button>
-				
-			</div>
-
-			<div class='col'>
-				<a href='education' class='thumbnail'>
-				<img id='barImg' class='barImg' src='/image/edButton.svg' alt='ed-button'>
+		<div class='row my-2' id='navBar'>
+			<div class='col mx-auto my-auto d-block'>
+				<a href='/' class='thumbnail'>
+				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/homeButton.svg' alt='home-button'></button>
 				</a>
 			</div>
 
-			<div class='col'>
+			<div class='col mx-auto my-auto d-block'>
+				<a href='education' class='thumbnail'>
+				<button class="btn btn-secondary mx-auto my-auto d-block">
+					<img id='barImg' class='barImg' src='/image/edButton.svg' alt='ed-button'>
+				</button>
+				</a>
+			</div>
+
+			<div class='col mx-auto my-auto d-block'>
 				<a href='profile' class='thumbnail'>
-				<img id='barImg' class='barImg' src='/image/profileButton.svg' alt='profile-button'>
+				<button class="btn btn-secondary mx-auto my-auto d-block">
+					<img id='barImg' class='barImg' src='/image/profileButton.svg' alt='profile-button'>
+				</button>
+				</a>
 			</div>
 		</div>
 

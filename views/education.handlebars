@@ -18,9 +18,9 @@
 	</section>*/-->
 
 	<div class='container'>
-		<div class='row'>
+		<!--<div class='row'>
 			<img class='rounded mx-auto d-block' id='iphoneBar' src="/image/iphonetop.svg" alt='iphonetop_image'>
-		</div>
+		</div>-->
 
 		<p class='text-center' id='mainTitle'>WELCOME TO skinX Education</p>
 
@@ -33,44 +33,55 @@
 			why it is important to find your skin care routine.</p>
 		<p class='text-center' id='naviText'>Read more about each step in a skin care routine:</p>
 
-		<div class='row'>
+		<div class='row my-2'>
 			<div class='col'>
-				<img class='rounded mx-auto d-block' onclick="window.location.href='/articles';"
-				src='/image/cleanserBW.svg' alt='cleanser-img'>
+				<a href='/articles' class='thumbnail'>
+				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/cleanserBW.svg' alt='cleanser-button'></button>
+				</a>
 			</div>
 
 			<div class='col'>
-				<img class='rounded mx-auto d-block' onclick="window.location.href='/articles';"
-				src='/image/tonerBW.svg' alt='cleanser-img'>
-			</div>
-		</div>
-
-		<div class='row'>
-			<div class='col'>
-				<img class='rounded mx-auto d-block' onclick="window.location.href='/articles';"
-				src='/image/serumBW.svg' alt='cleanser-img'>
-			</div>
-
-			<div class='col'>
-				<img class='rounded mx-auto d-block' onclick="window.location.href='/articles';"
-				src='/image/moistBW.svg' alt='cleanser-img'>
+				<a href='/articles' class='thumbnail'>
+				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/tonerBW.svg' alt='toner-button'></button>
+				</a>
 			</div>
 		</div>
 
-		<div class='row' id='navBar'>
+		<div class='row my-2'>
 			<div class='col'>
+				<a href='/articles' class='thumbnail'>
+				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/serumBW.svg' alt='serum-button'></button>
+				</a>
+			</div>
+
+			<div class='col'>
+				<a href='/articles' class='thumbnail'>
+				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/moistBW.svg' alt='moist-button'></button>
+				</a>
+			</div>
+		</div>
+
+		<div class='row my-2' id='navBar'>
+			<div class='col mx-auto my-auto d-block'>
 				<a href='/' class='thumbnail'>
-				<img id='barImg' src='/image/homeButton.svg' alt='home-button'>
+				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/homeButton.svg' alt='home-button'></button>
+				</a>
 			</div>
 
-			<div class='col'>
+			<div class='col mx-auto my-auto d-block'>
 				<a href='education' class='thumbnail'>
-				<img id='barImg' class='barImg' src='/image/edButton.svg' alt='ed-button'>
+				<button class="btn btn-secondary mx-auto my-auto d-block">
+					<img id='barImg' class='barImg' src='/image/edButton.svg' alt='ed-button'>
+				</button>
+				</a>
 			</div>
 
-			<div class='col'>
+			<div class='col mx-auto my-auto d-block'>
 				<a href='profile' class='thumbnail'>
-				<img id='barImg' class='barImg' src='/image/profileButton.svg' alt='profile-button'>
+				<button class="btn btn-secondary mx-auto my-auto d-block">
+					<img id='barImg' class='barImg' src='/image/profileButton.svg' alt='profile-button'>
+				</button>
+				</a>
 			</div>
 		</div>
 
