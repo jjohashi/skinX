@@ -5,6 +5,6 @@
 
 exports.viewEducation = function(req, res){
     console.log('opened education');
-    res.render(education);
+    res.render('education');
   };
   

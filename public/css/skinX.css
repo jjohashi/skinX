@@ -85,8 +85,16 @@ section {
      vertical-align: middle;
 }
 
-
-
+#homeButton {
+     text-align: center;
+     padding: 3% 19%;
+     font-family: Lato;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 30px;
+     color: white;
+     text-transform: uppercase;
+ }
 
 /*.main-img{
      position: absolute;
