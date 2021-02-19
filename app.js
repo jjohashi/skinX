@@ -14,6 +14,7 @@ var index = require('./routes/index');
 var education = require('./routes/education');
 var profile = require('./routes/profile');
 var articles = require('./routes/articles');
+var quiz = require('./routes/quiz');
 
 var app = express();
 
@@ -43,6 +44,7 @@ app.get('/', index.view);
 app.get('/education',education.viewEducation);
 app.get('/profile',profile.viewProfile);
 app.get('/articles',articles.viewArticles);
+app.get('/quiz',quiz.viewQuiz);
 
 
 http.createServer(app).listen(app.get('port'), function(){

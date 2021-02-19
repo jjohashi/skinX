@@ -86,20 +86,14 @@ section {
      font-family: Lato;
      font-style: normal;
      font-weight: normal;
-     font-size: 2rem;
+     font-size: 1rem;
      color: white;
      text-transform: uppercase;
  }
 
  .nav {
-     position: fixed;
-     bottom: 0;
-     width: 100%;
-     height: 55px;
-     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+     /*box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);*/
      background-color: #ffffff;
-     display: flex;
-     overflow-x: auto;
  }
  
  .nav__link {
@@ -124,7 +118,7 @@ section {
  }
  
  .nav__link--active {
-     color: #009578;
+     color: grey;
  }
  
  .nav__icon {

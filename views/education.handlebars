@@ -5,33 +5,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">-->
 	<link href="/css/skinX.css" rel="stylesheet">
 
 </head>
 <body>
-	<!--greybox sizing
-	<section >
-		<h1> skinX </h1>
-		<img src="/image/homeimg.svg" alt='home_image'>
-	</section>*/-->
 
 	<div class='container'>
-		<!--<div class='row'>
-			<img class='rounded mx-auto d-block' id='iphoneBar' src="/image/iphonetop.svg" alt='iphonetop_image'>
-		</div>-->
 
-		<p class='text-center' id='mainTitle'>WELCOME TO skinX Education</p>
+		<p id='mainTitle'>skinX Education</p>
 
 		<div class='row'>
 			<img class='rounded mx-auto d-block' src='/image/edImgBW.svg' alt='ed-img'>
 		</div>
 
-		<p class='text-center' id='infoText'>Your skin is the largest organ you have and is essential 
+		<p id='infoText'>Your skin is the largest organ you have and is essential 
 			to your general health. By taking care of it, it can also help to take care of you. This is 
 			why it is important to find your skin care routine.</p>
-		<p class='text-center' id='naviText'>Read more about each step in a skin care routine:</p>
+		<p id='naviText'>Read more about each step in a skin care routine:</p>
 
 		<div class='row my-2'>
 			<div class='col'>
@@ -61,29 +54,20 @@
 			</div>
 		</div>
 
-		<div class='row my-2' id='navBar'>
-			<div class='col mx-auto my-auto d-block'>
-				<a href='/' class='thumbnail'>
-				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/homeButton.svg' alt='home-button'></button>
-				</a>
-			</div>
-
-			<div class='col mx-auto my-auto d-block'>
-				<a href='education' class='thumbnail'>
-				<button class="btn btn-secondary mx-auto my-auto d-block">
-					<img id='barImg' class='barImg' src='/image/edButton.svg' alt='ed-button'>
-				</button>
-				</a>
-			</div>
-
-			<div class='col mx-auto my-auto d-block'>
-				<a href='profile' class='thumbnail'>
-				<button class="btn btn-secondary mx-auto my-auto d-block">
-					<img id='barImg' class='barImg' src='/image/profileButton.svg' alt='profile-button'>
-				</button>
-				</a>
-			</div>
-		</div>
+		<nav class="row nav mx-auto my-4">
+  			<a href="/" class="nav__link">
+   			 <i class="material-icons">home</i>
+   			 <span class="nav__text">Home</span>
+  			</a>
+ 			  <a href="/education" class="nav__link nav__link--active">
+  			  <i class="material-icons">book</i>
+   			 <span class="nav__text">Education</span>
+  			</a>
+ 			 <a href="/profile" class="nav__link nav__link--active">
+  			  <i class="material-icons nav__icon">person</i>
+   			 <span class="nav__text">Profile</span>
+ 			 </a>
+		</nav>
 
 	</div>
 
