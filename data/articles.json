@@ -1,0 +1,21 @@
+{
+    "articles": [
+        {
+            "title": "title",
+            "purpose": "purpose",
+            "importance": "importance",
+            "ingredients": "ingred.",
+            "products": "products",
+            "link": "link",
+            "image": "image"
+        },
+        {
+            "title": "title",
+            "purpose": "purpose",
+            "importance": "importance",
+            "ingredients": "ingred.",
+            "products": "products",
+            "link": "link"
+        }
+    ]
+}
