@@ -1,21 +1,35 @@
 {
     "articles": [
         {
-            "title": "title",
-            "purpose": "purpose",
-            "importance": "importance",
-            "ingredients": "ingred.",
-            "products": "products",
-            "link": "link",
-            "image": "image"
+            "title": "Cleanser",
+            "purpose": "Purpose: to get all of the dirt and bacteria out of your skin. Your skin accumulates a lot of dirt and bacteria every day, so leaving the bacteria on long term will lead to skin issues",
+            "importance": "Importance: use a cleanser so that the products you use to treat your skin can be effective since your skin is clean",
+            "ingredient1": "Ingredient 1: Ceramides (lipids that make up to 50% of the skin composition to form the natural skin barrier)",
+            "ingredient2": "Ingredient 2: Hyaluronic Acid (essential for maintaining your skin's moisture balance, is responsible for your skin’s plumpness and volume, smoothes out skin texture)",
+            "ingredient3": "Ingredient 3: Niacinamide (soothes skin and helps to restore your skin barrier, helps aid skin discoloration)",
+            "products": "products - CeraVe Foaming Face Cleanser, La Rochay Posay Cleanser, Youth to the People Kale Cleanser",
+            "link": "link - https://www.byrdie.com/skincare-ingredients-glossary ",
+            "image": "/image/cleanserBW.svg"
         },
         {
-            "title": "title",
+            "title": "Treatment",
+            "purpose": "Purpose: Helps with skin issues: breakouts, dry skin, dark spots",
+            "types": "Types: ??Chemical Exfoliant to help with breakouts and acne ",
+            "ingredient1": "Ingredient 1: AHA -- Glycolic Acid: alpha hydroxy acid reduces excess dead skin cell buildup for an improved texture, leaving skin soft and smooth",
+            "ingredient2": "Ingredient 2: BHA -- Salicylic Acid: Clears out pores and controls excess oil production while promoting the easy removal of dead skin cells",
+            "ingredient3": "Ingredient 3: PHA -- Polyhydroxy Acid: gently exfoliates skin while attracting and retaining moisture without irritation",
+            "products": "products - Paula;s Choice: SKIN PERFECTING 2% BHA Liquid Exfoliant, Bliss Clear Genuus Liquid Peel, The Ordinary: Hyaluronic Acid, The Ordinary: Niacinamide", 
+            "link": "link..",
+            "image": "get treatment img"
+        },
+        {
+            "title": "Moisturizer",
             "purpose": "purpose",
             "importance": "importance",
             "ingredients": "ingred.",
             "products": "products",
-            "link": "link"
+            "link": "line",
+            "image": "/image/moistBW.svg"
         }
     ]
 }

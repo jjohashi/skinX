@@ -26,7 +26,7 @@
 			why it is important to find your skin care routine.</p>
 		<p id='naviText'>Read more about each step in a skin care routine:</p>
 
-		<div class='row my-2'>
+		<!--<div class='row my-2'>
 			<div class='col'>
 				<a href='/articles/{{title}}' class='thumbnail'>
 				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/cleanserBW.svg' alt='cleanser-button'></button>
@@ -52,15 +52,30 @@
 				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/moistBW.svg' alt='moist-button'></button>
 				</a>
 			</div>
-		</div>
-
-		<!--{{#each articles}}
-			<div class="articles">
-				<a href="articles/{{title}}" class="thumbnail">
-					<button class="btn btn-secondary mx-auto my-auto d-block"><img src="image/{{image}}"></button>
+		</div>-->
+		
+		<div class='row my-2'>
+			<div class='col'>
+				<a href='/articles/{{title}}' class='thumbnail'>
+				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/{{image}}'></button>
 				</a>
 			</div>
-		{{/each}}-->
+
+			<div class='col'>
+				<a href='/articles/{{title}}' class='thumbnail'>
+				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/{{image}}'></button>
+				</a>
+			</div>
+		</div>
+
+	
+			<!--{{#each articles}}
+				<div class="articles">
+					<a href="articles/{{title}}" class="thumbnail">
+					<button class="btn btn-secondary mx-auto my-auto d-block"><img src="image/{{image}}"></button>
+					</a>
+				</div>
+			{{/each}}-->
 
 		<nav class="row nav mx-auto my-4">
   			<a href="/" class="nav__link">

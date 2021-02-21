@@ -18,6 +18,22 @@
 		<p class='text-center' id='mainTitle'>WELCOME TO skinX Education</p>
         <!--<p class='text-center' id='naviText'>{{title}}</p>-->
 
+        {{#each articles}}
+		<div class="jumbotron">
+			<h1>{{title}}</h1>
+			<p>{{purpose}}</p>
+			<p>{{importance}}</p>
+			<p>{{ingredient1}}</p>
+			<p>{{ingredient2}}</p>
+			<p>{{ingredient3}}</p>
+			<img src='/image/{{image}}'>
+			<p>{{products}}</p>
+			<p>{{link}}</p>
+
+		</div>
+		{{/each}}
+
+
 		<nav class="row nav mx-auto my-4">
   			<a href="/" class="nav__link">
    			 <i class="material-icons">home</i>
