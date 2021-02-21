@@ -46,7 +46,6 @@ app.get('/profile',profile.viewProfile);
 app.get('/articles/:title',articles.viewArticles);
 app.get('/quiz',quiz.viewQuiz);
 
-
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });

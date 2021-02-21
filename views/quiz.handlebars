@@ -3,20 +3,53 @@
 	<title>Quiz</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<!--<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<!--<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">-->
 	<link href="/css/skinX.css" rel="stylesheet">
-
+	<link href="/css/quiz.css" rel="stylesheet">
 </head>
 <body>
 
 	<div class='container'>
 
-		<p class='text-center' id='mainTitle'>SkinX Quiz</p>
+		<p id='mainTitle'>Skincare Quiz</p>
+		<p id='naviText'> Let’s find what your skin needs to feel its best!</p>
+	
+	<div class="quiz_box">
+		<!--<div id="game" class="justify-center flex-column"> -->
+			<div class="question_number">
+				<p>Question 1 out of 4</p>
+			</div>
+			<div class="question">
+				<span>What age range do you fall under?</span> 
+			</div>
 
+			<div class="option_list">
+				<div class="option">
+					<span>17 or younger</span>
+				</div>
+				<div class="option">
+					<span>18-34</span>
+				</div>
+				<div class="option">
+					<span>35-54</span>
+				</div>
+				<div class="option">
+					<span>55+</span>
+				</div>
+			</div>	
+
+				<div class="buttons">
+					<button class="back"> Back</button>
+					<button class="next"> Next</button>
+				</div>
+	</div>
+
+	
 		<nav class="row nav mx-auto my-4">
   			<a href="/" class="nav__link">
    			 <i class="material-icons">home</i>
@@ -29,11 +62,11 @@
  			 <a href="/profile" class="nav__link nav__link--active">
   			  <i class="material-icons nav__icon">person</i>
    			 <span class="nav__text">Profile</span>
- 			 </a>
+ 			</a>
 		</nav>
 
 	</div>
-
+	
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
