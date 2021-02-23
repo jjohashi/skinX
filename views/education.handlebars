@@ -53,29 +53,16 @@
 				</a>
 			</div>
 		</div>-->
-		
+		{{#each articles}}
 		<div class='row my-2'>
 			<div class='col'>
 				<a href='/articles/{{title}}' class='thumbnail'>
-				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/{{image}}'></button>
-				</a>
-			</div>
-
-			<div class='col'>
-				<a href='/articles/{{title}}' class='thumbnail'>
-				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/{{image}}'></button>
+				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='image/{{image}}'></button>
 				</a>
 			</div>
 		</div>
-
-	
-			<!--{{#each articles}}
-				<div class="articles">
-					<a href="articles/{{title}}" class="thumbnail">
-					<button class="btn btn-secondary mx-auto my-auto d-block"><img src="image/{{image}}"></button>
-					</a>
-				</div>
-			{{/each}}-->
+		{{/each}}
+		
 
 		<nav class="row nav mx-auto my-4">
   			<a href="/" class="nav__link">
