@@ -43,7 +43,7 @@ app.get('/', index.view);
 // app.get('/users', user.list);
 app.get('/education',education.viewEducation);
 app.get('/profile',profile.viewProfile);
-app.get('/articles/:title',articles.viewArticles);
+app.get('/articles/:id',articles.viewArticles);
 app.get('/quiz',quiz.viewQuiz);
 
 http.createServer(app).listen(app.get('port'), function(){

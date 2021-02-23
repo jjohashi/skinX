@@ -1,10 +1,13 @@
 /*
  * GET skin articles page.
  */
-var data = require('../data/articles.json');
+var data = require('../data/articles.json')['articles'];
 
 exports.viewArticles= function(req, res){
-    var title = req.params.title;
+    var id = req.params.id;
+    console.log(id);
     console.log('opened');
-    res.render('articles', data);
+    console.log(data[id]);
+    res.render('articles', data[id]);
+
   };
