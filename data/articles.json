@@ -10,8 +10,8 @@
             "ingredient3": "Ingredient 3: Niacinamide (soothes skin and helps to restore your skin barrier, helps aid skin discoloration)",
             "product1": "Product 1: CeraVe Foaming Face Cleanser",
             "product2": "Product 1: La Rochay Posay Cleanser",
-            "imageP1": "cereVeCleanser 1.svg",
-            "imageP2": "laRocheCleanser.svg",
+            "imageP1": "cereVeCleanser1.svg",
+            "imageP2": "laRocheCleanser1.svg",
             "link": "link - https://www.byrdie.com/skincare-ingredients-glossary ",
             "image": "CleanserThumb.svg"
         },
@@ -25,8 +25,8 @@
             "ingredient3": "Ingredient 3: PHA -- Polyhydroxy Acid: gently exfoliates skin while attracting and retaining moisture without irritation",
             "product1": "Product 1: The Ordinary: Hyaluronic Acid",
             "product2": "Product 1: Bliss Clear Genuus Liquid Peel",
-            "imageP1": "hyaluronic 1.svg",
-            "imageP2": "blissClear 1.svg",
+            "imageP1": "hyaluronic1.svg",
+            "imageP2": "blissClear1.svg",
             "link": "link - https://www.byrdie.com/skincare-ingredients-glossary ",
             "image": "SerumThumb.svg"  
         },
@@ -40,8 +40,8 @@
             "ingredient3": "Ingredient 3: ",
             "product1": "Product 1: The Ordinary: Hyaluronic Acid",
             "product2": "Product 1: Bliss Clear Genuus Liquid Peel",
-            "image": "hyaluronic 1.svg",
-            "image": "blissClear 1.svg",
+            "imageP1": "hyaluronic1.svg",
+            "imageP2": "blissClear1.svg",
             "link": "link - https://www.byrdie.com/skincare-ingredients-glossary ",
             "image": "MoistureThumb.svg"
         },
@@ -55,8 +55,8 @@
             "ingredient3": "Ing",
             "product1": "Product 1: The Ordinary: Hyaluronic Acid",
             "product2": "Product 1: Bliss Clear Genuus Liquid Peel",
-            "imageP1": "hyaluronic 1.svg",
-            "imageP2": "blissClear 1.svg",
+            "imageP1": "hyaluronic1.svg",
+            "imageP2": "blissClear1.svg",
             "link": "link - https://www.byrdie.com/skincare-ingredients-glossary ",
             "image": "SunscreenThumb.svg"
         }
