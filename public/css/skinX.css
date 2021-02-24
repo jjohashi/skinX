@@ -134,6 +134,17 @@ section {
      background-color: #C3D6B3;
 }
 
+#login-form-submit {
+     border-radius: 5px;
+     color: white;
+     font-weight: bold;
+     background-color: #639238;
+}
+
+#textLink {
+     color:#639238;
+}
+
 /*.main-img{
      position: absolute;
      width: 60%;
