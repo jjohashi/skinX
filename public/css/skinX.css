@@ -36,10 +36,27 @@ section {
      font-family: Caveat;
      font-style: normal;
      font-weight: bold;
-     font-size: 70px;
+     font-size: 3rem;
      color: #639238;
 }
 
+.button {
+     background-color: #639238;
+     border: none;
+     border-radius: 1rem;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 2rem;
+     cursor: pointer;
+     font-family: Lato;
+     font-style: normal;
+     font-weight: normal;
+     text-transform: uppercase;
+}
+
+/*what is this for?*/
 #mainText{
      font-family: Lato;
      font-style: normal;
