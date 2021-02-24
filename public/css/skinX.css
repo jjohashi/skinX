@@ -33,12 +33,11 @@ section {
  }
 
  #mainTitle{
-     font-family: Lato;
+     font-family: Caveat;
      font-style: normal;
      font-weight: bold;
-     font-size: 30px;
-     color: #5F6C78;
-     /*color:aqua;*/
+     font-size: 70px;
+     color: #639238;
 }
 
 #mainText{
@@ -130,7 +129,10 @@ section {
     color: #C3D6B3;
  }
 
-
+/*Login & sign up CSS*/
+#mainBackground {
+     background-color: #C3D6B3;
+}
 
 /*.main-img{
      position: absolute;
