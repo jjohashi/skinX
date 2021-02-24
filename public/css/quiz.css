@@ -29,7 +29,7 @@
 .choice-text {
     padding: 5%;
 }
-*/
+
 .justify-center flex-column{
     display: flex;
     top:50%;
@@ -115,14 +115,29 @@
     font-size: 24px;
     font-weight: 500;
     cursor: pointer;
-}
+}*/
 
 .quiz_box{
-    width:95%;
+    width:98%;
     background: #C3D6B3;
     border-radius: 10px;
+    padding: 10px 15px;
     /*top:55%;
     left:50%;
     transform: translate(-50%, -50%);
     position: absolute;*/
+}
+
+body {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: center;
+}
+
+#button {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding:5px;
 }
