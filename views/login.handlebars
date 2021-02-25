@@ -6,8 +6,8 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
 	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<!--<link href="/css/bootstrap.min.css" rel="stylesheet">
-	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">-->
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="/css/skinX.css" rel="stylesheet">
 	{{> facebook}}
 	<script src="/js/facebook.js"></script>
@@ -32,10 +32,10 @@
 			<!--login form-->
 			<form id='login-form'>
 				<!--email input-->
-				<input type='text' name='username' class='m-4' placeholder='Enter Email' required>
+				<input type='text' name='username' id='email-field' class='m-4' placeholder='Enter Email' required>
 				<input type='password' name='password' id='password-field' class='login-form-field m-4' placeholder='Enter Password' required>
 				<br>
-				<input type='submit' value='Login' id='login-form-submit' class='m-4'>
+				<input type='button' value='Login' id='login-form-submit' class='m-4'>
 			</form>
 		</div>
 		
@@ -52,7 +52,7 @@
 
 		<div class='row'>
 			<p class='m-4'>Don't have an account?</p> 
-			<a id='textLink' class='m-4' href='index'>Sign Up</a>
+			<a id='textLink' class='m-4' href='/'>Sign Up</a>
 		</div>
 
 		</div>
@@ -69,7 +69,7 @@
 	</div>
 
 
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+	<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
 		crossorigin="anonymous">
 	</script>
@@ -80,9 +80,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
 		crossorigin="anonymous">
-	</script>
-	<!--<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="/js/bootstrap.min.js"></script>-->
+	</script>-->
+	<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
 	<script src="/js/skinX.js"></script>
 
 </body>
