@@ -1,0 +1,21 @@
+{
+    "results": [
+        {
+            "resid": 0,
+            "title": "Oily Skin",
+            "purpose": "Purpose: to get all of the dirt and bacteria out of your skin. Your skin accumulates a lot of dirt and bacteria every day, so leaving the bacteria on long term will lead to skin issues",
+            "importance": "Importance: use a cleanser so that the products you use to treat your skin can be effective since your skin is clean",
+            "ingredient1": "Ingredient 1: Ceramides (lipids that make up to 50% of the skin composition to form the natural skin barrier)",
+            "ingredient2": "Ingredient 2: Hyaluronic Acid (essential for maintaining your skin's moisture balance, is responsible for your skin’s plumpness and volume, smoothes out skin texture)",
+            "ingredient3": "Ingredient 3: Niacinamide (soothes skin and helps to restore your skin barrier, helps aid skin discoloration)",
+            "product1": "Product 1: CeraVe Foaming Face Cleanser",
+            "product2": "Product 1: La Rochay Posay Cleanser",
+            "imageP1": "cereVeCleanser1.svg",
+            "imageP2": "laRocheCleanser1.svg",
+            "link": "link - https://www.byrdie.com/skincare-ingredients-glossary ",
+            "image": "CleanserThumb.svg"
+        }
+
+
+    ]
+}

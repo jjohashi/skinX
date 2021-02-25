@@ -17,6 +17,7 @@ var profile = require('./routes/profile');
 var articles = require('./routes/articles');
 var quiz = require('./routes/quiz');
 var login = require('./routes/login');
+var results = require('./routes/results');
 
 var app = express();
 
@@ -49,6 +50,8 @@ app.get('/profile',profile.viewProfile);
 app.get('/articles/:id',articles.viewArticles);
 app.get('/quiz',quiz.viewQuiz);
 app.get('/login',login.viewLogin);
+app.get('/results/:resid',results.viewResults);
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

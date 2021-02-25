@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>skinX Sign Up</title>
+	<title>Results</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
@@ -9,62 +9,34 @@
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="/css/skinX.css" rel="stylesheet">
-	{{> facebook}}
-	<script src="/js/facebook.js"></script>
 
 </head>
 <body>
+
 	<div class='container'>
 
+		<p id='mainTitle'>Your results</p>
+		
 		<div class='row mx-auto my-5 d-block'>
 			<img class='rounded mx-auto d-block' src='/image/leaf.svg' alt='leaf-img'>
 		</div>
 
-		<p class='text-center' id='mainTitle'>skinX</p>
+		<p>{{resid}}</p>
 
-		<div id='mainBackground'>
-
-		<div class='row'>
-			<p class='m-4'>Create account</p>
-		</div>
-
-		<div class='row'>
-			<!--login form-->
-			<form id='sign-form'>
-				<!--email input-->
-				<input type='text' name='fullName' id='fullName' class='m-4' placeholder='Full Name' required>
-				<input type='text' name='email' id='email' class='m-4' placeholder='Email' required>
-				<input type='password' name='password' id='password-field' class='sign-form-field m-4' placeholder='Password' required>
-				<input type='password' name='Cpassword' id='cpassword-field' class='sign-form-field m-4' placeholder='Password' required>
-				<br>
-				<input type='submit' value='Submit' id='sign-form-submit' class='m-4'>
-			</form>
-		</div>
-		
-		<div class='row'>
-			<p class='mx-4'>OR</p>
-		</div>
-
-		<div class='row'>
-			<div class='m-4'>
-			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-			</fb:login-button>
-			</div>
-		</div>
-
-		<div class='row'>
-			<p class='m-4'>Already have an account?</p> 
-			<a id='textLink' class='m-4' href='login'>Login</a>
-		</div>
-
-		</div>
-
-		<!--delete later, use to nav to home-->
-		<div class='row mx-auto my-4 d-block'>
-			<a class='button mx-auto d-block' id='homeButton' href='home' 
-			role="button">Home</a>
-		</div>
-
+		<nav class="row nav mx-auto my-4">
+  			<a href="/home" class="nav__link">
+   			 <i class="material-icons">home</i>
+   			 <span class="nav__text">Home</span>
+  			</a>
+ 			  <a href="/education" class="nav__link nav__link--active">
+  			  <i class="material-icons">book</i>
+   			 <span class="nav__text">Education</span>
+  			</a>
+ 			 <a href="/profile" class="nav__link nav__link--active">
+  			  <i class="material-icons nav__icon">person</i>
+   			 <span class="nav__text">Profile</span>
+ 			 </a>
+		</nav>
 
 	</div>
 
