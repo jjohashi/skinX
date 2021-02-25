@@ -12,7 +12,8 @@
             "imageP1": "cereVeCleanser1.svg",
             "product2": "Product 2: La Rochay Posay Cleanser",
             "imageP2": "laRocheCleanser1.svg",
-            "link": "link - https://www.byrdie.com/skincare-ingredients-glossary",
+            "link": "https://www.byrdie.com/skincare-ingredients-glossary",
+            "image": "CleanserThumb.svg"
         },
         {
             "id": 1,
@@ -26,7 +27,8 @@
             "imageP1": "hyaluronic1.svg",
             "product2": "Product 2: Bliss Clear Genuus Liquid Peel",
             "imageP2": "blissClear1.svg",
-            "link": "link - https://www.byrdie.com/skincare-ingredients-glossary", 
+            "link": "https://www.byrdie.com/skincare-ingredients-glossary",
+            "image": "SerumThumb.svg"
         },
         {
             "id": 2,
@@ -37,10 +39,11 @@
             "ingredient2": "Ingredient 2: Hyaluronic Acid -- essential for maintaining your skin's moisture balance, is responsible for your skin’s plumpness and volume, smoothes out skin texture",
             "ingredient3": "Ingredient 3: Green Tea Extract -- helps improve your skin's natural moisture, fights acne, unclogs pores, and reduces inflammation and puffiness in face",
             "product1": "Product 1: CeraVe Moisturizing Cream",
-            "imageP1": "cereVeLotion.svg",
+            "imageP1": "ceraVeLotion.svg",
             "product2": "Product 2: Versed Dew Point Moisturizing Cream",
             "imageP2": "versed.svg",
-            "link": "link - https://www.byrdie.com/skincare-ingredients-glossary",
+            "link": "https://www.byrdie.com/skincare-ingredients-glossary",
+            "image": "MoistureThumb.svg"
         },
         {
             "id": 3,
@@ -54,7 +57,8 @@
             "imageP1": "sunbum.svg",
             "product2": "Product 1: Supergood Unseen Sunscreen",
             "imageP2": "supergoop.svg",
-            "link": "link - https://www.byrdie.com/skincare-ingredients-glossary",
+            "link": "https://www.byrdie.com/skincare-ingredients-glossary",
+            "image": "SunscreenThumb.svg"
         }
     ]
 }
