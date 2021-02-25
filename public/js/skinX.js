@@ -89,16 +89,15 @@ function check() {
 
     if (c<50) {
         /*result.textContext="Your result is Dry Skin";*/
-        alert('Your result is Dry Skin');
-        open('/results/0','_self');
+        open('/results/1','_self');
 
     } else if(c>=50 && c<=100) {
         /*result.textContext="Your result is Combination Skin";*/
-        alert('Your result is Combination Skin');
+        open('/results/2','_self');
 
     } else if(c>100) {
         /*result.textContext="Your result is Oily Skin";*/
-        alert('Your result is Oily Skin');
+        open('/results/0','_self');
 
     }
 }

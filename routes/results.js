@@ -7,5 +7,5 @@ exports.viewResults= function(req, res){
     var resid = req.params.resid;
     console.log('opened results '+resid);
     //console.log(data[resid]);
-    res.render('articles', data[resid]);
+    res.render('results', data[resid]);
   };

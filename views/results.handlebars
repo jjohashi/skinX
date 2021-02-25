@@ -15,13 +15,26 @@
 
 	<div class='container'>
 
-		<p id='mainTitle'>Your results</p>
+		<p id='mainTitle'>SKIN TYPE RESULTS</p>
+		<h6>Let's find out what your skin needs to feel its best!</h6>
 		
-		<div class='row mx-auto my-5 d-block'>
-			<img class='rounded mx-auto d-block' src='/image/leaf.svg' alt='leaf-img'>
-		</div>
+		<!--<div class='row mx-auto my-5 d-block'>
+			<img class='rounded mx-auto d-block' >
+		</div>-->
 
-		<p>{{resid}}</p>
+		<div class="results">
+			<img src='/image/{{image}}' alt='image'>
+			<h1>{{title}}</h1>
+			<p>{{summary}}</p>
+			<p>{{bestingredients}}</p>
+			<p>{{rec1}}</p>
+			<p>{{rec1summary}}</p>
+			<p>{{rec2}}</p>
+			<p>{{rec2summary}}</p>
+			<p>{{rec3}}</p>
+			<p>{{rec3summary}}</p>
+
+		</div>
 
 		<nav class="row nav mx-auto my-4">
   			<a href="/home" class="nav__link">
