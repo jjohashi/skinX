@@ -169,3 +169,16 @@ section {
      height: 250px;
 }
 
+/*quiz results*/
+.resultsrec {
+     color: #639238; 
+     font-size:18px; 
+     font-weight:bold;
+}
+
+.resultssummary {
+     font-style:italic; 
+     font-size:14px;
+}
+
+
