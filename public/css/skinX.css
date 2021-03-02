@@ -21,10 +21,15 @@ h1, h2, h3, h4, h5 {
 }
 
 #footer {
-     position:absolute;
+     position:fixed;
      bottom:0;
      width:100%;
-     height:relative;   /* Height of the footer */
+     height:relative;    
+     overflow: hidden;
+}
+
+#mainSpace{
+     height: 1500px;
 }
 
 /*end of main config*/
@@ -89,11 +94,11 @@ h1, h2, h3, h4, h5 {
      border-radius: 10px;
 }
 
-#navBar{
+/*#navBar{
      height: 52px;
      background:#D0D7DD;
      border-radius: 10px;
-}
+}*/
 
 #homeButton {
      font-family: Lato;
@@ -208,7 +213,7 @@ h1, h2, h3, h4, h5 {
      padding: 20px 5px 5px;
  }
  
- #naviText {
+ #quizText {
      padding:5px;
      font-style: italic;
      color: black;

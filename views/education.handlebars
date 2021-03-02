@@ -7,7 +7,7 @@
 <body>
 
 	<div class='container'>
-
+		<div id='mainSpace'>
 		<p id='mainTitle'>skinX Education</p>
 
 		<div class='row'>
@@ -19,33 +19,6 @@
 			why it is important to find your skin care routine.</p>
 		<p id='naviText'>Read more about each step in a skin care routine:</p>
 
-		<!--<div class='row my-2'>
-			<div class='col'>
-				<a href='/articles/{{title}}' class='thumbnail'>
-				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/cleanserBW.svg' alt='cleanser-button'></button>
-				</a>
-			</div>
-
-			<div class='col'>
-				<a href='/articles' class='thumbnail'>
-				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/tonerBW.svg' alt='toner-button'></button>
-				</a>
-			</div>
-		</div>
-
-		<div class='row my-2'>
-			<div class='col'>
-				<a href='/articles' class='thumbnail'>
-				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/serumBW.svg' alt='serum-button'></button>
-				</a>
-			</div>
-
-			<div class='col'>
-				<a href='/articles' class='thumbnail'>
-				<button class="btn btn-secondary mx-auto my-auto d-block"><img src='/image/moistBW.svg' alt='moist-button'></button>
-				</a>
-			</div>
-		</div>-->
 		{{#each articles}}
 		<div class='row my-2'>
 			<div class='col'>
@@ -55,9 +28,15 @@
 			</div>
 		</div>
 		{{/each}}
-		
-		{{> nav}}
 
+		</div>
+		
+		
+
+	</div>
+
+	<div>
+		{{> nav}}
 	</div>
 
 
