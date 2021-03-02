@@ -186,8 +186,7 @@ h1, h2, h3, h4, h5 {
 /*quiz*/
 .quiz_box{
      width:98%;
-     background: #C3D6B3;
-     border-radius: 10px;
+     border-radius: 15px;
      padding: 10px 15px;
      /*top:55%;
      left:50%;
