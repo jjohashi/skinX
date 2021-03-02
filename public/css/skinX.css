@@ -178,4 +178,45 @@ h1, h2, h3, h4, h5 {
      font-size:14px;
 }
 
+/*quiz*/
+.quiz_box{
+     width:98%;
+     background: #C3D6B3;
+     border-radius: 10px;
+     padding: 10px 15px;
+     /*top:55%;
+     left:50%;
+     transform: translate(-50%, -50%);
+     position: absolute;*/
+ }
+ 
+ body {
+     color: black;
+     font-size: 16px;
+     margin: center;
+ }
+ 
+ #button {
+     background-color: #639238;
+     color: white;
+     font-size: 18px;
+     padding:5px;
+     border: #639238;
+ }
+ 
+ #mainTitle {
+     padding: 20px 5px 5px;
+ }
+ 
+ #naviText {
+     padding:5px;
+     font-style: italic;
+     color: black;
+ }
+ 
+ h6 {
+     font-size: 20px; 
+     font-weight: bold;
+ }
+
 
