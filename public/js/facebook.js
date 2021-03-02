@@ -15,7 +15,7 @@ function checkLoginState() {
       // Logged into your app and Facebook.
           console.log('Successfully logged in with Facebook');
           //open('/profile','_self');
-          //console.log('opened profile')
+          //console.log('opened profile');
            FB.api('/me?fields=name,first_name,picture.width(480)', changeUser);
     }
   }
