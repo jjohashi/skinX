@@ -15,16 +15,28 @@
       
 		<div class="jumbotron">
 			<h1>{{title}}</h1>
-			<p>{{purpose}}</p>
-			<p>{{importance}}</p>
-			<p>{{ingredient1}}</p>
-			<p>{{ingredient2}}</p>
-			<p>{{ingredient3}}</p>
-			<p>{{product1}}</p>
+			<p class='articlesrec'>{{pur}}</p>
+			<p class='articlessummary'>{{purpose}}</p>
+			<p class='articlesrec'>{{imp}}</p>
+			<p class='articlessummary'>{{importance}}</p>
+			<br>
+			<p class='articlesrec'>{{i1}}</p>
+			<p class='articlessummary'>{{ingredient1}}</p>
+			<p class='articlesrec'>{{i2}}</p>
+			<p class='articlessummary'>{{ingredient2}}</p>
+			<p class='articlesrec'>{{i3}}</p>
+			<p class='articlessummary'>{{ingredient3}}</p>
+			<br>
+			
+			<p class='articlesrec'>{{product1}}</p>
 			<img src='/image/{{imageP1}}' id='articles-image' alt='image'>
-			<p>{{product2}}</p>
+			<p class='articlesrec'>{{product2}}</p>
 			<img src='/image/{{imageP2}}' id='articles-image' alt='image'>
-			<a href="{{link}}">Ingredient Glossary</a>
+			
+			<br>
+			<br>
+			<p class='articlessummary'>{{linker}}<a href="{{link}}">Ingredient Glossary</a></p>
+			<br>
 
 		</div>
 

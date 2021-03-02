@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #mainSpace{
-     height: 1500px;
+     height: 1750px;
 }
 
 /*end of main config*/
@@ -167,8 +167,8 @@ h1, h2, h3, h4, h5 {
 /*articles*/
 #articles-image {
      border-radius: 5px;
-     width: 250px;
-     height: 250px;
+     width: 175px;
+     height: 175px;
 }
 
 /*quiz results*/
@@ -223,5 +223,18 @@ h1, h2, h3, h4, h5 {
      font-size: 20px; 
      font-weight: bold;
  }
+
+ /*articles*/
+.articlesrec {
+     color: #639238; 
+     font-size:18px; 
+     font-weight:bold;
+}
+
+.articlessummary {
+     font-style:italic; 
+     font-size:14px;
+}
+
 
 
