@@ -1,0 +1,17 @@
+{
+    "users": [
+        {
+            "username": "Wizard",
+            "email": "wizard@gmail.com",
+            "password": "wizard101",
+            "userResults": "0"
+        },
+
+        {
+            "username": "Jordyn",
+            "email": "jordyn@gmail.com",
+            "password": "jordyn101",
+            "userResults": "1"
+        }
+    ]
+}

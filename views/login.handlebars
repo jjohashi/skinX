@@ -2,8 +2,6 @@
 <head>
 	<title>skinX Login</title>
 	{{> top}}
-	{{> facebook}}
-	<script src="/js/facebook.js"></script>
 
 </head>
 <body>
@@ -31,17 +29,6 @@
 				<input type='button' value='Login' id='login-form-submit' class='m-4'>
 			</form>
 		</div>
-		
-		<div class='row'>
-			<p class='mx-4'>OR</p>
-		</div>
-
-		<div class='row'>
-			<div class='m-4'>
-			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-			</fb:login-button>
-			</div>
-		</div>
 
 		<div class='row'>
 			<p class='m-4'>Don't have an account?</p> 
@@ -51,7 +38,6 @@
 		</div>
 
 	</div>
-
 
 	{{> bottom}}
 

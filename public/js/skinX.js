@@ -9,9 +9,11 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	console.log("Javascript connected for Login!");
     /*login clicklisteners*/
-	$("#login-form-submit").click(loginSubmit);
+	$("#login-form-submit").click(function(e){
+        $.get("/data/profile.json", loginSubmit);
+    });
+    console.log("Javascript connected for Login!");
 
     /*signup clicklistener*/
     $("#sign-form-submit").click(signSubmit);
@@ -20,10 +22,18 @@ function initializePage() {
     $("#quizSubmit").click(check);
 }
 
+/*load json data for profile & results*/
+/*var profileText = $.getJSON("../data/profile.json");*/
+/*var profileObj = JSON.parse(profileText);*/
+/*var profileData = "../data/profile.json";
+var resultsData = "../data/results.json";*/
+/*$.getJSON("/data/profile.json", function(testdata){});
+console.log('length of profile: '+testdata.users);*/
+/*console.log('length of results: '+resultsData.length);*/
 
 /*function for submitting login information*/
-function loginSubmit(e) {
-    e.preventDefault();
+function loginSubmit(result) {
+    console.log('result');
     var username = $('#email-field').val();
     console.log('username is: ' + username);
     var password = $('#password-field').val();
@@ -33,6 +43,7 @@ function loginSubmit(e) {
     }
 
     else {
+
         alert("You have successfully logged in.");
         open('/home','_self');
     }
@@ -63,6 +74,13 @@ function signSubmit(e) {
         open('/home','_self');
     }
 }
+
+/*function for finding user*/
+/*function findUser(nameF, emailF, passwordF) {
+    var i;
+    for (i=0; i<)
+
+}*/
 
 /*function for adding up quiz score*/
 function check() {

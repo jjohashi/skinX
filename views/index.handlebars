@@ -2,8 +2,6 @@
 <head>
 	<title>skinX Sign Up</title>
 	{{> top}}
-	{{> facebook}}
-	<script src="/js/facebook.js"></script>
 
 </head>
 <body>
@@ -28,21 +26,10 @@
 				<input type='text' name='fullName' id='fullName' class='m-4' placeholder='Full Name' required>
 				<input type='text' name='email' id='email' class='m-4' placeholder='Email' required>
 				<input type='password' name='password' id='password-field' class='sign-form-field m-4' placeholder='Password' required>
-				<input type='password' name='Cpassword' id='cpassword-field' class='sign-form-field m-4' placeholder='Password' required>
+				<input type='password' name='Cpassword' id='cpassword-field' class='sign-form-field m-4' placeholder='Confirm Password' required>
 				<br>
 				<input type='submit' value='Submit' id='sign-form-submit' class='m-4'>
 			</form>
-		</div>
-		
-		<div class='row'>
-			<p class='mx-4'>OR</p>
-		</div>
-
-		<div class='row'>
-			<div class='m-4'>
-			<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-			</fb:login-button>
-			</div>
 		</div>
 
 		<div class='row'>
