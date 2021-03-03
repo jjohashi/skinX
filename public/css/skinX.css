@@ -33,17 +33,39 @@ h1, h2, h3, h4, h5 {
 }
 
 /*end of main config*/
+@font-face {
+     font-family: 'Caveat';
+     src:url("/fonts/Caveat-SemiBold.ttf");
+     
+
+}
 
  #mainTitle{
-     font-family: Caveat;
-     font-style: normal;
+     font-family: 'Caveat';
+     src: url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
      font-weight: bold;
-     font-size: 3rem;
+     font-size: 6rem;
      color: #639238;
 }
 
 .button {
      background-color: #639238;
+     border: none;
+     border-radius: 1rem;
+     color: white;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 2.5rem;
+     cursor: pointer;
+     font-family: Lato;
+     font-style: normal;
+     font-weight: normal;
+     text-transform: uppercase;
+}
+
+.buttonEd {
+     background-color: #C3D6B3;
      border: none;
      border-radius: 1rem;
      color: white;
@@ -231,8 +253,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .articlessummary {
-     font-style:italic; 
      font-size:14px;
+}
+
+.productsummary {
+     color: black; 
+     font-size:14px; 
+     text-align: center;
+
 }
 
 

@@ -11,15 +11,27 @@
 		<p id='mainTitle'>skinX Education</p>
 
 		<div class='row'>
-			<img class='rounded mx-auto d-block' src='/image/edImgBW.svg' alt='ed-img'>
+			<img class='rounded mx-auto d-block' src='/image/leaf.svg' alt='ed-img'>
 		</div>
 
 		<p id='infoText'>Your skin is the largest organ you have and is essential 
 			to your general health. By taking care of it, it can also help to take care of you. This is 
 			why it is important to find your skin care routine.</p>
 		<p id='naviText'>Read more about each step in a skin care routine:</p>
+		<br>
 
 		{{#each articles}}
+		
+			<div class='col'>
+				<a href='/articles/{{id}}'>
+				<button class="buttonEd mx-auto my-auto d-block"><img src='image/{{image}}'></button>
+				</a>
+				<br>
+			</div>
+	
+		{{/each}}
+
+		<!--{{#each articles}}
 		<div class='row my-2'>
 			<div class='col'>
 				<a href='/articles/{{id}}' class='thumbnail'>
@@ -27,7 +39,7 @@
 				</a>
 			</div>
 		</div>
-		{{/each}}
+		{{/each}}-->
 
 		</div>
 		
