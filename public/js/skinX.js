@@ -31,6 +31,8 @@ var resultsData = "../data/results.json";*/
 console.log('length of profile: '+testdata.users);*/
 /*console.log('length of results: '+resultsData.length);*/
 
+profileData.users[0].username
+
 /*function for submitting login information*/
 function loginSubmit(result) {
     console.log('result');
