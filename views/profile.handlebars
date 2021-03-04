@@ -8,23 +8,27 @@
 	<div class='container'>
 		<div id='mainSpace'>
 
-		<p id='mainTitle'>Profile</p>
+		<p id='mainTitle'>My Profile</p>
 
-		<div class='row mx-auto my-5 d-block'>
+		<div class='row'>
 			<img class='rounded mx-auto d-block' id='profile' src='/image/leaf.svg' alt='profile-img'>
 		</div>
 
-		<h1 id='name'>{{username}}</h1>
-
+		<p id='userName'>Hello, {{username}}!</p>
+		<br>
+		<br>
+		<br>
 		<div class='row mx-auto my-4 d-block'>
 			<a class='button mx-auto d-block' href='quiz'
-			role="button">Skincare Quiz</a>
+			role="button">Skin Type Quiz</a>
 		</div>
 
 		<div class='row mx-auto my-4 d-block'>
 			<a class='button mx-auto d-block' href='{{userResults}}' 
-			role="button">Skincare Results</a>
+			role="button">View Skincare Results</a>
 		</div>
+
+		<p id='profileText'>OR</p>
 
 		<div class='row mx-auto my-4 d-block'>
 			<a class='button mx-auto d-block' href='login' 
