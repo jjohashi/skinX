@@ -8,16 +8,8 @@ var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
+//route
 var index = require('./routes/index');
-// Example route
-// var user = require('./routes/user');
-var home = require('./routes/home');
-var education = require('./routes/education');
-var profile = require('./routes/profile');
-var articles = require('./routes/articles');
-var quiz = require('./routes/quiz');
-var login = require('./routes/login');
-var results = require('./routes/results');
 
 var app = express();
 
@@ -41,16 +33,18 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', index.view);
 // Example route
 // app.get('/users', user.list);
-app.get('/home', home.viewHome);
-app.get('/education',education.viewEducation);
-app.get('/profile',profile.viewProfile);
-app.get('/articles/:id',articles.viewArticles);
-app.get('/quiz',quiz.viewQuiz);
-app.get('/login',login.viewLogin);
-app.get('/results/:resid',results.viewResults);
+app.get('/', index.view);
+app.get('/login',index.viewLogin);
+app.get('/home',index.viewHome);
+app.get('/education',index.viewEducation);
+app.get('/quiz', index.viewQuiz);
+app.get('/profile', index.viewProfile);
+app.get('/articles/:id',index.viewArticles);
+app.get('/results/:resid',index.viewResults);
+app.post('/saveUser', index.saveUser);
+app.post('/saveResult', index.saveResult);
 
 
 http.createServer(app).listen(app.get('port'), function(){

@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5 {
 }
 
 #mainSpace{
-     height: 1750px;
+     height: 1500px;
 }
 
 /*end of main config*/
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5 {
      font-family: 'Caveat';
      src: url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
      font-weight: bold;
-     font-size: 6rem;
+     font-size: 10vw;
      color: #639238;
 }
 

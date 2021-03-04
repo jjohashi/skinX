@@ -1,0 +1,147 @@
+{
+    "users": [
+        {
+            "username": "Wizard",
+            "password": "wizard101",
+            "userResults": "/results/0"
+        }
+    ],
+
+    "results": [
+        {
+            "resid": 0,
+            "title": "You have oily skin!",
+            "summary": "An oily skin type is exactly what it sounds like – excess oil on the face produces a persistently shiny or greasy appearance. If you don't treat your oily skin, pores can become clogged and enlarged, and dead skin cells may accumulate.",
+            "bestingredients": "These are three of the best skincare ingredients for oily skin:",
+            "rec1": "Hyaluronic Acid",
+            "rec1summary": "Hyaluronic Acid is a common ingredient in moisturizers and serums that increases the moisture level in your skin. That might sound counterproductive to your battle against oil, but it’s actually just as important to moisturize oily skin as it is to moisturize dry skin. Often, oily skin is the result of dehydration. Your skin knows when it’s dehydrated and starts producing oil to compensate. Adding Hyaluronic Acid to your routine will ensure that your skin is well hydrated and never looks greasy.",
+            "rec2": "Retinol",
+            "rec2summary": "Retinol is a superhero skincare ingredient that has a number of benefits like oil regulation, acne relief, wrinkle reduction, and the list goes on. Retinol works by increases the speed of your skin cell turnover process to reveal healthier, brighter skin. The downside of Retinol is that it can be irritating for certain skin types but oily skin is generally the best at receiving this potent, powerhouse ingredient.",
+            "rec3": "Salicylic Acid",
+            "rec3summary": "Salicylic Acid is another great ingredient for oily skin, especially if you’re experiencing breakouts as a result of excess oil. Often found in cleansers and toners, Salicylic Acid is an anti-inflammatory ingredient that plows through excess oil, breaks down dead skin cells, and attacks troublesome breakouts the source—deep inside your pores.",
+            "image":"oilyskin.svg"
+        },
+        {
+            "resid": 1,
+            "title": "You have dry skin!",
+            "summary": "Dry skin can feel tight after washing. There is very little oil on the tissue and you need a moisturiser, even in humid weather. You might notice dry patches and white flecks.",
+            "bestingredients": "These are three of the best skincare ingredients for dry skin:",
+            "rec1": "Hyaluronic Acid",
+            "rec1summary": "The hydration hero. Hyaluronic acid draws in moisture from the air around you and has the power to hold 1000x its weight in water. When we said water has to be delivered to the skin properly, this is what we meant. While many moisturizers contain hyaluronic acid, using a more-potent hyaluronic acid serum is an even better option.",
+            "rec2": "Squalane",
+            "rec2summary": "While hyaluronic acid draws moisture to the skin, squalane locks it in.",
+            "rec3": "Ceramides",
+            "rec3summary": "If your skin were made of bricks, ceramides would be the mortar—they’re essential for ensuring moisture doesn’t slip through the cracks. While your skin contains ceramides naturally, dry skin generally has fewer, so it’s best to supplement with ceramide-rich skincare.",
+            "image":"dryskin.svg"
+        },
+        {
+            "resid": 2,
+            "title": "You have combination skin!",
+            "summary": "Combination skin is simply having oily skin in some areas of your face and dry skin in other areas. Typically, there's a mix of oily and dry areas on different parts of your face, with the t-zone (forehead, nose, and chin) being slightly to very oily.",
+            "bestingredients": "These are three of the best skincare ingredients for combination skin:",
+            "rec1": "Hyaluronic Acid",
+            "rec1summary": "The hydration hero. Hyaluronic acid draws in moisture from the air around you and has the power to hold 1000x its weight in water. When we said water has to be delivered to the skin properly, this is what we meant. While many moisturizers contain hyaluronic acid, using a more-potent hyaluronic acid serum is an even better option.",
+            "rec2": "Salicylic Acid",
+            "rec2summary": "Salicylic Acid is another great ingredient for oily skin, especially if you’re experiencing breakouts as a result of excess oil. Often found in cleansers and toners, Salicylic Acid is an anti-inflammatory ingredient that plows through excess oil, breaks down dead skin cells, and attacks troublesome breakouts the source—deep inside your pores.",
+            "rec3": "Ceramides",
+            "rec3summary": "If your skin were made of bricks, ceramides would be the mortar—they’re essential for ensuring moisture doesn’t slip through the cracks. While your skin contains ceramides naturally, dry skin generally has fewer, so it’s best to supplement with ceramide-rich skincare.",
+            "image":"combinationskin.svg"
+        }
+
+    ],
+
+    "articles": [
+        {
+            "id": 0,
+            "title": "Cleanser",
+            "head": "yytp.svg",
+            "pur": "Purpose: ",
+            "purpose": "Cleanser gets all of the dirt and bacteria out of your skin. Your skin accumulates a lot of dirt and bacteria every day, so leaving the bacteria on long term will lead to skin issues",
+            "imp": "Importance: ",
+            "importance": "Use a cleanser so that the products you use to treat your skin can work effectively",
+            "i1": "Ingredient 1: Ceramides",
+            "ingredient1": "Lipids which make up to 50% of the skin's composition to form the natural skin barrier",
+            "i2": "Ingredient 2: Hyaluronic Acid",
+            "ingredient2": "Essential for maintaining your skin's moisture balance, is responsible for your skin’s plumpness and volume, smoothes out skin texture",
+            "i3": "Ingredient 3: Niacinamide",
+            "ingredient3": "Soothes skin and helps to restore your skin barrier, helps aid skin discoloration",
+            "p1": "Products: ",
+            "product1": "CeraVe Foaming Face Cleanser",
+            "imageP1": "cereVeCleanser1.svg",
+            "product2": "La Rochay Posay Cleanser",
+            "imageP2": "laRocheCleanser1.svg",
+            "linker": "Click the link to find out more on skincare ingredients: ",
+            "link": "https://www.byrdie.com/skincare-ingredients-glossary: ",
+            "image": "CleanserThumb.svg"
+        },
+        {
+            "id": 1,
+            "title": "Serum",
+            "head": "serumArticles.svg",
+            "pur": "Purpose: ",
+            "purpose": "Helps with skin issues, including breakouts, dry skin, and dark spots",
+            "imp": "Types: ",
+            "importance": "Serums can help with dry skin or act as treatments. A common treatment is a chemical exfoliant that helps with breakouts and acne ",
+            "i1": "Ingredient 1: AHA",
+            "ingredient1": "Glycolic Acid: Alpha hydroxy acid reduces excess dead skin cell buildup for an improved texture, leaving skin soft and smooth",
+            "i2": "Ingredient 2: BHA",
+            "ingredient2": "Salicylic Acid: Clears out pores and controls excess oil production while promoting the easy removal of dead skin cells",
+            "i3": "Ingredient 3: PHA",
+            "ingredient3": "Polyhydroxy Acid: Gently exfoliates skin while attracting and retaining moisture without irritation",
+            "p1": "Products: ",
+            "product1": "The Ordinary: Hyaluronic Acid",
+            "imageP1": "hyaluronic1.svg",
+            "product2": "Bliss Clear Genius Liquid Peel",
+            "imageP2": "blissClear1.svg",
+            "linker": "Click the link to find out more on skincare ingredients: ",
+            "link": "https://www.byrdie.com/skincare-ingredients-glossary",
+            "image": "SerumThumb.svg"
+        },
+        {
+            "id": 2,
+            "title": "Moisturizer",
+            "head": "moistureArticles.svg",
+            "pur": "Purpose: ",
+            "purpose": "Helps restore your skin's barrier by sealing in the skin’s natural water preventing transepidermal water loss",
+            "imp": "Importance: ",
+            "importance": "Moisturizers will reduce breakouts and aging",
+            "i1": "Ingredient 1: Ceramides",
+            "ingredient1": "Lipids that make up to 50% of the skin composition to form the natural skin barrier",
+            "i2": "Ingredient 2: Hyaluronic Acid",
+            "ingredient2": "Essential for maintaining your skin's moisture balance, is responsible for your skin’s plumpness and volume, smoothes out skin texture",
+            "i3": "Ingredient 3: Green Tea Extract",
+            "ingredient3": "Helps improve your skin's natural moisture, fights acne, unclogs pores, and reduces inflammation and puffiness in face",
+            "p1": "Products: ",
+            "product1": "CeraVe Moisturizing Cream",
+            "imageP1": "ceraVeLotion.svg",
+            "product2": "Versed Dew Point Moisturizing Cream",
+            "imageP2": "versed.svg",
+            "linker": "Click the link to find out more on skincare ingredients: ",
+            "link": "https://www.byrdie.com/skincare-ingredients-glossary",
+            "image": "MoistureThumb.svg"
+        },
+        {
+            "id": 3,
+            "title": "Sunscreen",
+            "head": "sunscreenArticles.svg",
+            "pur": "Purpose: ",
+            "purpose": "To protect skin from sun damage",
+            "imp": "Importance: ",
+            "importance": "Most important part of skincare routine, since skincare problems will worsen from sun damage",
+            "i1": "Ingredient 1: Zinc Oxide",
+            "ingredient1": "Zinc oxide in sunscreen helps to scatter the sun's rays, which prevents potentially damaging ultraviolet radiation from getting to the skin ",
+            "i2": "Ingredient to Avoid: Oxybenzone",
+            "ingredient2": "Contributes to coral reef bleaching",
+            "i3": "Ingredient to Avoid: Octinoxate",
+            "ingredient3": "Contributes to coral reef bleaching",
+            "p1": "Products: ",
+            "product1": "Sun Bum Mineral Tinted SPF",
+            "imageP1": "sunbum.svg",
+            "product2": "Supergoop Unseen Sunscreen",
+            "imageP2": "supergoop.svg",
+            "linker": "Click the link to find out more on skincare ingredients: ",
+            "link": "https://www.byrdie.com/skincare-ingredients-glossary",
+            "image": "SunscreenThumb.svg"
+        }
+    ]
+}

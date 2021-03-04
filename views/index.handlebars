@@ -23,8 +23,7 @@
 			<!--login form-->
 			<form id='sign-form'>
 				<!--email input-->
-				<input type='text' name='fullName' id='fullName' class='m-4' placeholder='Full Name' required>
-				<input type='text' name='email' id='email' class='m-4' placeholder='Email' required>
+				<input type='text' name='username' id='username' class='m-4' placeholder='Username' required>
 				<input type='password' name='password' id='password-field' class='sign-form-field m-4' placeholder='Password' required>
 				<input type='password' name='Cpassword' id='cpassword-field' class='sign-form-field m-4' placeholder='Confirm Password' required>
 				<br>
@@ -35,6 +34,10 @@
 		<div class='row'>
 			<p class='m-4'>Already have an account?</p> 
 			<a id='textLink' class='m-4' href='login'>Login</a>
+		</div>
+
+		<div class='row'>
+			<p>{{username}}</p>
 		</div>
 
 		</div>

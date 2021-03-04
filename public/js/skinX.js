@@ -10,29 +10,19 @@ $(document).ready(function() {
  */
 function initializePage() {
     /*login clicklisteners*/
-	$("#login-form-submit").click(function(e){
-        $.get("/data/profile.json", loginSubmit);
-    });
-    console.log("Javascript connected for Login!");
+	$("#login-form-submit").click(loginSubmit);
 
     /*signup clicklistener*/
     $("#sign-form-submit").click(signSubmit);
 
     /*quiz clicklistener*/
     $("#quizSubmit").click(check);
+
+    console.log("Javascript connected for Login, Sign Up, & quiz!");
 }
 
-/*load json data for profile & results*/
-/*var profileText = $.getJSON("../data/profile.json");*/
-/*var profileObj = JSON.parse(profileText);*/
-/*var profileData = "../data/profile.json";
-var resultsData = "../data/results.json";*/
-/*$.getJSON("/data/profile.json", function(testdata){});
-console.log('length of profile: '+testdata.users);*/
-/*console.log('length of results: '+resultsData.length);*/
-
-profileData.users[0].username
-
+/*var userdata = JSON.parse(profile);
+console.log(userdata);*/
 /*function for submitting login information*/
 function loginSubmit(result) {
     console.log('result');
@@ -45,26 +35,34 @@ function loginSubmit(result) {
     }
 
     else {
+        var newUser = {username:username, password:password};
+        
+        $.post('saveUser', newUser, postCallBack);
 
-        alert("You have successfully logged in.");
+        function postCallBack(res){
+            
+        }
+        
         open('/home','_self');
     }
 }
 
+
 /*function for submitting sign up information*/
 function signSubmit(e) {
     e.preventDefault();
-    var fullName = $('#fullName').val();
-    var email = $('#email').val();
+    var username = $('#username').val();
     var password = $('#password-field').val();
     var cpassword = $('#cpassword-field').val();
 
-    if (fullName == '' || email == '' || password == '' || cpassword == '') {
-        alert("Please fill all fields...!!!!!!");
+    
+
+    if (username == '' || password == '' || cpassword == '') {
+        alert("Please fill all fields!");
     } 
 
     else if ((password.length) < 5) {
-        alert("Password should atleast 5 character in length...!!!!!!");
+        alert("Password should at least 5 character in length!");
     }
 
     else if (!(password).match(cpassword)) {
@@ -72,17 +70,17 @@ function signSubmit(e) {
     } 
 
     else {
-        alert("You have successfully logged in.");
+        var newUser = {username:username, password:password};
+        
+        $.post('saveUser', newUser, postCallBack);
+
+        function postCallBack(res){
+            
+        }
         open('/home','_self');
+
     }
 }
-
-/*function for finding user*/
-/*function findUser(nameF, emailF, passwordF) {
-    var i;
-    for (i=0; i<)
-
-}*/
 
 /*function for adding up quiz score*/
 function check() {
@@ -108,15 +106,34 @@ function check() {
     }
 
     if (c<50) {
-        /*result.textContext="Your result is Dry Skin";*/
+        var result = {userResults:'/results/1'};
+        
+        $.post('saveResult', result, postCallBack);
+
+        function postCallBack(res){
+            
+        }
         open('/results/1','_self');
 
     } else if(c>=50 && c<=100) {
-        /*result.textContext="Your result is Combination Skin";*/
+        var result = {userResults:'/results/2'};
+        
+        $.post('saveResult', result, postCallBack);
+
+        function postCallBack(res){
+            
+        }
         open('/results/2','_self');
 
     } else if(c>100) {
-        /*result.textContext="Your result is Oily Skin";*/
+        var result = {userResults:'/results/0'};
+        
+        $.post('saveResult', result, postCallBack);
+
+        function postCallBack(res){
+            
+        }
+
         open('/results/0','_self');
 
     }

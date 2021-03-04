@@ -4,14 +4,14 @@
             "username": "Wizard",
             "email": "wizard@gmail.com",
             "password": "wizard101",
-            "userResults": "0"
+            "userResults": "/results/0"
         },
 
         {
             "username": "Jordyn",
             "email": "jordyn@gmail.com",
             "password": "jordyn101",
-            "userResults": "1"
+            "userResults": "/results/1"
         }
     ]
 }
