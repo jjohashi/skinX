@@ -4,13 +4,13 @@
 	{{> top}}
 
 </head>
-<body style="background-color:#C3D6B3;">
+<body style="background-color: rgb(250, 250, 250);">
 
 	<div class='container'>
 		<div id='mainSpace'>
 
-		<p id='mainTitle' style="color:#33333; text-align:center;">SKIN TYPE RESULTS</p>
-		<p id='naviText' style="font-style: italic; color:#333333; text-align:center;"> Let's find out what your skin needs to feel its best!</p>
+		<p id='mainTitle' style="color:#33333; text-align:center; font-size:42px;">SKIN TYPE RESULTS</p>
+		<p id='naviText' style="font-style: italic; color:#445336;; text-align:center; font-weight:bolder;"> Let's find out what your skin needs to feel its best!</p>
 
 		
 		<!--<div class='row mx-auto my-5 d-block'>
@@ -18,11 +18,14 @@
 		</div>-->
 
 		<div style="color:#333333;" class="results">
-			<img  src='/image/{{image}}' alt='image'>
-			<h1>{{title}}</h1>
-			<p>{{summary}}</p>
+			<img  class='resultsimg' src='/image/{{image}}' alt='image'>
+			<h1 style="text-align: center; font-style:italic; color:#445336;">{{title}}</h1>
 			<br>
-			<p style="font-weight: medium; font-size: 20px;">{{bestingredients}}</p>
+			<p style="text-align: center;">{{summary}}</p>
+			<br>
+			<p style="text-align: center; color:#456e20; font-weight: bold;"> ------------- </p>
+			<br>
+			<p style="color:#3e4e30; font-weight: bold; font-size: 22px;">{{bestingredients}}</p>
 			<p class='resultsrec' >{{rec1}}</p>
 			<p style="color:#333333;" class='resultssummary'>{{rec1summary}}</p>
 			<p class='resultsrec'>{{rec2}}</p>
@@ -32,7 +35,7 @@
 			<br>
 
 			<div class='row mx-auto my-4 d-block'>
-				<a class='button mx-auto d-block' href='/education' 
+				<a style='text-transform:none;' class='button mx-auto d-block' href='/education' 
 				role="button">Learn about products and ingredients</a>
 			</div>
 

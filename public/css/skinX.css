@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5 {
      font-family: 'Caveat';
      src: url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
      font-weight: bold;
-     font-size: 10vw;
+     font-size: 15vw;
      color: #639238;
 }
 
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5 {
      display: inline-block;
      font-size: 2.5rem;
      cursor: pointer;
-     font-family: Lato;
+     font-family: 'Lato';
      font-style: normal;
      font-weight: normal;
      text-transform: uppercase;
@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5 {
 
 /*what is this for?*/
 #mainText{
-     font-family: Lato;
+     font-family: 'Lato';
      font-style: normal;
      font-weight: bold;
      font-size: 30px;
@@ -109,20 +109,22 @@ h1, h2, h3, h4, h5 {
 
 #infoText{
      font-family: Lato;
-     font-style: normal;
+     font-style: italic;
+     text-align: center;
      font-weight: normal;
      font-size: 16px;
-     color: #5F6C78; 
+     color:#68725f; 
 }
 
 #naviText{
      padding-top: 4%;
-     font-family: Lato;
-     font-style: normal;
-     font-weight: 500;
-     font-size: 20px;
+     font-family: 'Lato';
+     text-align: center;
+     font-style:normal;
+     font-weight: bolder;
+     font-size: 24px;
      line-height: 22px;
-     color: #5F6C78;
+     color:#639238;
 
 }
 
@@ -139,7 +141,7 @@ h1, h2, h3, h4, h5 {
 }*/
 
 #homeButton {
-     font-family: Lato;
+     font-family: 'Lato';
      font-style: normal;
      font-weight: normal;
      font-size: 1rem;
@@ -187,21 +189,76 @@ h1, h2, h3, h4, h5 {
  }
 
 /*Login & sign up CSS*/
-#mainBackground {
-     background-color: #C3D6B3;
+#mainbackground{
+     background-color:white;
+     border-radius: 20px;
+     box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+form.form1 {
+     padding-top: 40px;
+ }
+
+.sign {
+     padding-top: 40px;
+     color:#639238;
+     font-family: 'Lato';
+     font-weight:700;
+     font-size: 23px;
+}
+ 
+.un {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 22px;
+    font-family: 'Lato';
+}
+
+.submit {
+     cursor: pointer;
+     color: #fff;
+     background: linear-gradient(to right,#71a046,#629137);
+     border-radius: 20px;
+     border-color: #639238;
+     padding-left: 40px;
+     padding-right: 40px;
+     padding-bottom: 10px;
+     padding-top: 10px;
+     font-family: 'Lato';
+     margin-left: 35%;
+     font-size: 14px;
+     border: #F4F2F2;
+     text-transform: capitalize;
+   }
+
+.register {
+     text-shadow: 0px 0px 3px rgba(252, 252, 252, 0.12);
+     color:#639238;
+     padding-top: 14px;
+     text-transform: capitalize;
+     font-family: 'Lato';
 }
 
 #login-form-submit {
-     border-radius: 5px;
+     border-radius: 20px;
      color: white;
      font-weight: bold;
      background-color: #639238;
+     font-family: 'Lato';
 }
-
-#textLink {
-     color:#639238;
-}
-
 
 /*quiz results*/
 .resultsrec {
@@ -230,6 +287,7 @@ h1, h2, h3, h4, h5 {
      color: black;
      font-size: 16px;
      margin: center;
+     background-color: #dae4d2;
  }
  
  #button {
@@ -281,9 +339,11 @@ h1, h2, h3, h4, h5 {
 }
 /*profile*/
 #userName {
-     color: black; 
+     color:#639238; 
      font-size:25px; 
+     text-align: center;
      font-style: italic;
+     font-family: 'Lato';
 }
 #profileText {
      color: black; 
@@ -292,4 +352,12 @@ h1, h2, h3, h4, h5 {
      text-align: center;
 }
 
+/*results*/
+.resultsimg {
+     align-items: center;
+     width:100%;
+     border-radius: 15px;
+     padding: 10px 15px;
+
+}
 
