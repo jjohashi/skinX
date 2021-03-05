@@ -68,11 +68,14 @@
             "p1": "Products: ",
             "product1": "CeraVe Foaming Face Cleanser",
             "imageP1": "cereVeCleanser1.svg",
-            "product2": "La Rochay Posay Cleanser",
+            "product2": "La Roche-Posay Toleriane Cleanser",
             "imageP2": "laRocheCleanser1.svg",
             "linker": "Click the link to find out more on skincare ingredients: ",
-            "link": "https://www.byrdie.com/skincare-ingredients-glossary: ",
-            "image": "CleanserThumb.svg"
+            "link": "https://www.byrdie.com/skincare-ingredients-glossary",
+            "image": "CleanserThumb.svg",
+            "productLink1": "https://www.amazon.com/CeraVe-Foaming-Cleanser-Washing-packaging/dp/B003YMJJSK",
+            "productLink2": "https://www.amazon.com/Roche-Posay-Toleriane-Purifying-Foaming-Cleanser/dp/B01N34XW93"
+
         },
         {
             "id": 1,
@@ -93,9 +96,12 @@
             "imageP1": "hyaluronic1.svg",
             "product2": "Bliss Clear Genius Liquid Peel",
             "imageP2": "blissClear1.svg",
-            "linker": "Click the link to find out more on skincare ingredients: ",
-            "link": "https://www.byrdie.com/skincare-ingredients-glossary",
-            "image": "SerumThumb.svg"
+            "linker": "Click the link to find out more on serum ingredients: ",
+            "link": "https://temptu.com/blog/what-ingredients-to-look-for-in-a-facial-serum-for-your-skin-type/",
+            "image": "SerumThumb.svg",
+            "productLink1": "https://www.amazon.com/Packs-Ordinary-Hyaluronic-Acid-30ml/dp/B07D6YRQ7C/ref=sr_1_7?crid=37A6ONTQ9LNIQ&dchild=1&keywords=the+ordinary+hyaluronic+acid&qid=1614975292&s=beauty&sprefix=the+or%2Cbeauty%2C246&sr=1-7",
+            "productLink2": "https://www.amazon.com/Bliss-Genius-Clarifying-Overnight-Liquid/dp/B089P2XYCR/ref=sr_1_1_sspa?crid=H2XAH15SAY4J&dchild=1&keywords=bliss+clear+genius&qid=1614975319&s=beauty&sprefix=bliss+cl%2Cbeauty%2C240&sr=1-1-spons&psc=1&smid=A3V5JDN84JNH2I&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExNjRKQ01SR0ZXVDdDJmVuY3J5cHRlZElkPUEwOTA1ODMxUkNFU0o1N0VSUzdYJmVuY3J5cHRlZEFkSWQ9QTAwNDcyMDcyS0JJV1BMV0JKUzE3JndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ=="
+
         },
         {
             "id": 2,
@@ -118,7 +124,9 @@
             "imageP2": "versed.svg",
             "linker": "Click the link to find out more on skincare ingredients: ",
             "link": "https://www.byrdie.com/skincare-ingredients-glossary",
-            "image": "MoistureThumb.svg"
+            "image": "MoistureThumb.svg",
+            "productLink1": "https://www.amazon.com/CeraVe-Moisturizing-Lotion-Hyaluronic-Fragrance/dp/B07RK4HST7/ref=pd_vtp_1?pd_rd_w=1GhEv&pf_rd_p=96226b5f-2d9a-439b-be45-97603787c682&pf_rd_r=YAF3MN8RDF32WM6GFCK2&pd_rd_r=7aabd7a4-7a2a-461c-834b-438c3077cf53&pd_rd_wg=zaRrb&pd_rd_i=B07RK4HST7&psc=1",
+            "productLink2": "https://www.amazon.com/Versed-Moisturizing-Moisturizer-Hydrating-Moisturizers/dp/B07TKP8VZ2/ref=sr_1_2?crid=2R1HH9D87KROM&dchild=1&keywords=versed+dew+point+moisturizing+gel-cream&qid=1614975418&s=beauty&sprefix=verse%2Cbeauty%2C246&sr=1-2"
         },
         {
             "id": 3,
@@ -135,13 +143,15 @@
             "i3": "Ingredient to Avoid: Octinoxate",
             "ingredient3": "Contributes to coral reef bleaching",
             "p1": "Products: ",
-            "product1": "Sun Bum Mineral Tinted SPF",
+            "product1": "Sun Bum Mineral Tinted SPF 30 Sunscreen",
             "imageP1": "sunbum.svg",
-            "product2": "Supergoop Unseen Sunscreen",
+            "product2": "Supergoop Unseen Sunscreen SPF 40",
             "imageP2": "supergoop.svg",
-            "linker": "Click the link to find out more on skincare ingredients: ",
-            "link": "https://www.byrdie.com/skincare-ingredients-glossary",
-            "image": "SunscreenThumb.svg"
+            "linker": "Click the link to find out more about sunscreen ingredients: ",
+            "link": "https://www.healthline.com/health/beauty-skin-care/best-sunscreen-ingredients",
+            "image": "SunscreenThumb.svg",
+            "productLink1": "https://www.amazon.com/Sun-Bum-Sunscreen-Protection-Hypoallergenic/dp/B072QYD2P4/ref=sr_1_2?crid=1G3PZG2STW0IS&dchild=1&keywords=sun+bum+mineral+tinted+sunscreen+face+lotion+spf+30&qid=1614975449&s=beauty&sprefix=sun+bum%2Cbeauty%2C246&sr=1-2",
+            "productLink2": "https://www.amazon.com/Supergoop-Unseen-Sunscreen-SPF-1-7/dp/B08CFVM1TT/ref=sr_1_2?crid=2RYO4FW5MBIS&dchild=1&keywords=supergoop+unseen+sunscreen&qid=1614975530&s=beauty&sprefix=supergoop+un%2Cbeauty%2C232&sr=1-2"
         }
     ]
 }
