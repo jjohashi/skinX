@@ -84,58 +84,65 @@ function signSubmit(e) {
 
 /*function for adding up quiz score*/
 function check() {
+    console.log("in check");
     var c=0;
     var q1=document.quiz.question1.value;
-    console.log(q1);
     var q2=document.quiz.question2.value;
     var q3=document.quiz.question3.value;
     var q4=document.quiz.question4.value;
     var result=document.getElementById('result');
     var quiz=document.getElementById('quiz');
 
-    if (q2=="Acne" || q2=="Redness" ) {
-        c += 50;
+    //check if all fields are clicked
+    if(q1== '' || q2== '' || q3== '' || q4== ''){
+        alert("Please fill in all fields");
     }
 
-    if (q3=="Large and all over" || q3=="Medium sized and all over") {
-        c += 50;
-    }
-
-    if (q4=="Often" || q4=="Very frequently") {
-        c += 50;
-    }
-
-    if (c<50) {
-        var result = {userResults:'/results/1'};
-        
-        $.post('saveResult', result, postCallBack);
-
-        function postCallBack(res){
-            
-        }
-        open('/results/1','_self');
-
-    } else if(c>=50 && c<=100) {
-        var result = {userResults:'/results/2'};
-        
-        $.post('saveResult', result, postCallBack);
-
-        function postCallBack(res){
-            
-        }
-        open('/results/2','_self');
-
-    } else if(c>100) {
-        var result = {userResults:'/results/0'};
-        
-        $.post('saveResult', result, postCallBack);
-
-        function postCallBack(res){
-            
+    else{
+        if (q2=="Acne" || q2=="Redness" ) {
+           c += 50;
         }
 
-        open('/results/0','_self');
+        if (q3=="Large and all over" || q3=="Medium sized and all over") {
+           c += 50;
+        }
 
+        if (q4=="Often" || q4=="Very frequently") {
+            c += 50;
+        }
+
+        if (c<50) {
+           var result = {userResults:'/results/1'};
+        
+           $.post('saveResult', result, postCallBack);
+
+            function postCallBack(res){
+            
+            }
+           open('/results/1','_self');
+
+        } else if(c>=50 && c<=100) {
+            var result = {userResults:'/results/2'};
+        
+            $.post('saveResult', result, postCallBack);
+
+            function postCallBack(res){
+            
+            }
+            open('/results/2','_self');
+
+        } else if(c>100) {
+            var result = {userResults:'/results/0'};
+        
+            $.post('saveResult', result, postCallBack);
+
+            function postCallBack(res){
+            
+            }
+
+            open('/results/0','_self');
+
+        }
     }
 }
 

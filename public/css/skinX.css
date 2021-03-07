@@ -89,7 +89,7 @@ h1, h2, h3, h4, h5 {
      display: inline-block;
      font-size: 2.5rem;
      cursor: pointer;
-     font-family: Lato;
+     font-family: 'Lato';
      font-style: normal;
      font-weight: normal;
      text-transform: uppercase;
@@ -108,11 +108,11 @@ h1, h2, h3, h4, h5 {
 }
 
 #infoText{
-     font-family: Lato;
+     font-family: 'Lato';
      font-style: italic;
      text-align: center;
      font-weight: normal;
-     font-size: 16px;
+     font-size: 20px;
      color:#68725f; 
 }
 
@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5 {
      min-width: 50px;
      overflow: hidden;
      white-space: nowrap;
-     font-family: sans-serif;
+     font-family: 'Lato';
      font-size: 13px;
      color: #444444;
      text-decoration: none;
@@ -195,12 +195,8 @@ h1, h2, h3, h4, h5 {
      box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
 }
 
-form.form1 {
-     padding-top: 40px;
- }
-
 .sign {
-     padding-top: 40px;
+     /*padding-top: 40px;*/
      color:#639238;
      font-family: 'Lato';
      font-weight:700;
@@ -208,22 +204,18 @@ form.form1 {
 }
  
 .un {
-    width: 76%;
+    width: 100%;
     color: rgb(38, 50, 56);
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 1px;
     background: rgba(136, 126, 126, 0.04);
-    padding: 10px 20px;
     border: none;
     border-radius: 20px;
     outline: none;
     box-sizing: border-box;
     border: 2px solid rgba(0, 0, 0, 0.02);
-    margin-bottom: 50px;
-    margin-left: 46px;
     text-align: center;
-    margin-bottom: 22px;
     font-family: 'Lato';
 }
 
@@ -233,12 +225,12 @@ form.form1 {
      background: linear-gradient(to right,#71a046,#629137);
      border-radius: 20px;
      border-color: #639238;
-     padding-left: 40px;
+     /*padding-left: 40px;
      padding-right: 40px;
      padding-bottom: 10px;
-     padding-top: 10px;
+     padding-top: 10px;*/
      font-family: 'Lato';
-     margin-left: 35%;
+     /*margin-left: 35%;*/
      font-size: 14px;
      border: #F4F2F2;
      text-transform: capitalize;
@@ -247,7 +239,7 @@ form.form1 {
 .register {
      text-shadow: 0px 0px 3px rgba(252, 252, 252, 0.12);
      color:#639238;
-     padding-top: 14px;
+     /*padding-top: 14px;*/
      text-transform: capitalize;
      font-family: 'Lato';
 }
@@ -304,6 +296,7 @@ form.form1 {
  
  #quizText {
      padding:5px;
+     font-size: 18px;
      font-style: italic;
      color: black;
  }
@@ -312,6 +305,17 @@ form.form1 {
      font-size: 20px; 
      font-weight: bold;
  }
+
+input[type=radio]{
+     transform:scale(1.5);
+   }
+
+label span {
+     display:inline-block;
+     margin-left: 10px;
+     font-size: 18px; 
+     font-weight: normal;
+}
 
  /*articles*/
 
@@ -323,17 +327,17 @@ form.form1 {
 
 .articlesrec {
      color: #639238; 
-     font-size:18px; 
+     font-size:22px; 
      font-weight:bold;
 }
 
 .articlessummary {
-     font-size:14px;
+     font-size:20px;
 }
 
 .productsummary {
      color: black; 
-     font-size:14px; 
+     font-size:18px; 
      text-align: center;
 
 }
