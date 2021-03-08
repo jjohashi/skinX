@@ -110,7 +110,6 @@ h1, h2, h3, h4, h5 {
 #infoText{
      font-family: 'Lato';
      font-style: italic;
-     text-align: center;
      font-weight: normal;
      font-size: 20px;
      color:#68725f; 
@@ -151,7 +150,7 @@ h1, h2, h3, h4, h5 {
 
  .nav {
      /*box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);*/
-     background-color: #ffffff;
+     background-color:#ffffff;
      bottom: 0%;
  }
  
@@ -166,7 +165,7 @@ h1, h2, h3, h4, h5 {
      white-space: nowrap;
      font-family: 'Lato';
      font-size: 13px;
-     color: #444444;
+     color:#4d7429;
      text-decoration: none;
      -webkit-tap-highlight-color: transparent;
      transition: background-color 0.1s ease-in-out;
@@ -175,14 +174,7 @@ h1, h2, h3, h4, h5 {
  .nav__link:hover {
      background-color: #eeeeee;
  }
- 
- .nav__link--active {
-     color: grey;
- }
- 
- .nav__icon {
-     font-size: 18px;
- }
+
  
  button {
     color: #C3D6B3;
