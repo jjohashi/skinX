@@ -8,8 +8,7 @@
 
 	<div class='container'>
 		<div id='mainSpace'>
-		<p id='mainTitle'>skinX  Education <img style= "width:50px; height:50px;" src='/image/leaf.svg' alt='ed-img'></p>
-
+		<p id='mainTitle'>Education  <img class='leafSize' src='/image/leaf.svg' alt='leaf-img'></p>
 		<!--<div class='row'>
 			<img class='rounded mx-auto d-block' src='/image/leaf.svg' alt='ed-img'>
 		</div>-->
@@ -19,17 +18,17 @@
 			why it is important to find your skin care routine.</p>
 		<p id='naviText'>Read more about each step in a skin care routine:</p>
 		<br>
+		<div class="row">
 
-		{{#each articles}}
-		
-			<div class='col'>
-				<a href='/articles/{{id}}'>
-				<button class="buttonEd mx-auto my-auto d-block"><img src='image/{{image}}'><img src='image/{{image}}'></button>
-				</a>
-				<br>
-			</div>
-	
-		{{/each}}
+			{{#each articles}}
+				<div class='col mx-1 my-3 d-block'>
+					<a href='/articles/{{id}}' 
+						role="button"><img class='buttonEd m-auto d-block'src='image/{{image}}'>
+					</a>
+				</div>
+			{{/each}}
+
+		</div>
 
 		<!--{{#each articles}}
 		<div class='row my-2'>

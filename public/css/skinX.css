@@ -13,24 +13,15 @@ h1, h2, h3, h4, h5 {
      color: #8382BF;
 }*/
 
-
 /*main config of each page*/
-.container {
-     min-height: 100%;
-     position: relative;
-}
-
-#footer {
-     position:fixed;
-     bottom:0;
-     width:100%;
-     height:relative;    
-     overflow: hidden;
-}
 
 #mainSpace{
-     /*height: 1500px;*/
      height: 2000px;
+}
+
+.leafSize{
+     width: 5rem;
+     height: 5rem;
 }
 
 /*end of main config*/
@@ -43,7 +34,7 @@ h1, h2, h3, h4, h5 {
      font-family: 'Caveat';
      src: url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
      font-weight: bold;
-     font-size: 15vw;
+     font-size: 8rem;
      color: #639238;
 }
 
@@ -55,7 +46,7 @@ h1, h2, h3, h4, h5 {
      text-align: center;
      text-decoration: none;
      display: inline-block;
-     font-size: 2.5rem;
+     font-size: 2rem;
      cursor: pointer;
      font-family: 'Lato';
      font-style: normal;
@@ -63,23 +54,19 @@ h1, h2, h3, h4, h5 {
      text-transform: uppercase;
 }
 
+button {
+     color: #C3D6B3;
+}
+
 .buttonEd {
      background-color: #C3D6B3;
      border: none;
      border-radius: 1rem;
-     color: white;
-     text-align: center;
-     text-decoration: none;
      display: inline-block;
-     font-size: 2rem;
      cursor: pointer;
-     font-family: Lato;
-     font-style: normal;
-     font-weight: normal;
-     text-transform: uppercase;
 }
 
-.accountButton {
+/*.accountButton {
      background-color: #445633;
      border: none;
      border-radius: 1rem;
@@ -95,8 +82,6 @@ h1, h2, h3, h4, h5 {
      text-transform: uppercase;
 }
 
-
-/*what is this for?*/
 #mainText{
      font-family: 'Lato';
      font-style: normal;
@@ -106,12 +91,13 @@ h1, h2, h3, h4, h5 {
      border-radius: 10px;
      background: #7892A9;
 }
+*/
 
 #infoText{
      font-family: 'Lato';
      font-style: italic;
      font-weight: normal;
-     font-size: 20px;
+     font-size: 1.5rem;
      color:#68725f; 
 }
 
@@ -121,32 +107,20 @@ h1, h2, h3, h4, h5 {
      text-align: center;
      font-style:normal;
      font-weight: bolder;
-     font-size: 24px;
-     line-height: 22px;
+     font-size: 2rem;
+     /*line-height: 22px;*/
      color:#639238;
 
 }
 
-#homeBox {
-     height: 512px;
-     background: #F4F2F2;
-     border-radius: 10px;
+/*Navigation bar*/
+#footer {
+     position:fixed;
+     width:100%;
+     /*height:relative;   
+     bottom:0;*/
+     /*overflow: hidden;*/
 }
-
-/*#navBar{
-     height: 52px;
-     background:#D0D7DD;
-     border-radius: 10px;
-}*/
-
-#homeButton {
-     font-family: 'Lato';
-     font-style: normal;
-     font-weight: normal;
-     font-size: 1rem;
-     color: white;
-     text-transform: uppercase;
- }
 
  .nav {
      /*box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);*/
@@ -164,7 +138,7 @@ h1, h2, h3, h4, h5 {
      overflow: hidden;
      white-space: nowrap;
      font-family: 'Lato';
-     font-size: 13px;
+     font-size: 15px;
      color:#4d7429;
      text-decoration: none;
      -webkit-tap-highlight-color: transparent;
@@ -175,11 +149,6 @@ h1, h2, h3, h4, h5 {
      background-color: #eeeeee;
  }
 
- 
- button {
-    color: #C3D6B3;
- }
-
 /*Login & sign up CSS*/
 #mainbackground{
      background-color:white;
@@ -187,6 +156,10 @@ h1, h2, h3, h4, h5 {
      box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
 }
 
+.indexLeaf{
+     width: 6rem;
+     height: 6rem;
+}
 .sign {
      /*padding-top: 40px;*/
      color:#639238;
@@ -282,10 +255,6 @@ h1, h2, h3, h4, h5 {
      border: #639238;
  }
  
- #mainTitle {
-     padding: 20px 5px 5px;
- }
- 
  #quizText {
      padding:5px;
      font-size: 18px;
@@ -336,13 +305,12 @@ label span {
 .aProduct {
      background-color: #eeeeee;
      border: none;
-
 }
+
 /*profile*/
 #userName {
      color:#639238; 
-     font-size:25px; 
-     text-align: center;
+     font-size: 4rem; 
      font-style: italic;
      font-family: 'Lato';
 }
@@ -356,9 +324,8 @@ label span {
 /*results*/
 .resultsimg {
      align-items: center;
-     width:100%;
+     width:70%;
      border-radius: 15px;
      padding: 10px 15px;
-
 }
 

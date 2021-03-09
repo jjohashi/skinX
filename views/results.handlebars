@@ -9,8 +9,8 @@
 	<div class='container'>
 		<div id='mainSpace'>
 
-		<p id='mainTitle' style="color:#33333; font-size:42px;">SKIN TYPE RESULTS</p>
-		<p id='naviText' style="font-style: italic; color:#445336;; text-align:center; font-weight:bolder;"> Let's find out what your skin needs to feel its best!</p>
+		<p id='mainTitle' >Skin Type Results</p>
+		<!--<p id='naviText' style="font-style: italic; color:#445336;; text-align:center; font-weight:bolder;"> Let's find out what your skin needs to feel its best!</p>-->
 
 		
 		<!--<div class='row mx-auto my-5 d-block'>
@@ -18,8 +18,8 @@
 		</div>-->
 
 		<div style="color:#333333;" class="results">
-			<img  class='resultsimg' src='/image/{{image}}' alt='image'>
 			<h1 style="text-align: center; font-style:italic; color:#445336;">{{title}}</h1>
+			<img  class='resultsimg rounded mx-auto d-block' src='/image/{{image}}' alt='image'>
 			<br>
 			<p style="text-align: center;">{{summary}}</p>
 			<br>
@@ -35,9 +35,10 @@
 			<br>
 
 			<div class='row mx-auto my-4 d-block'>
-				<a style='text-transform:none;' class='button mx-auto d-block' href='/education' 
-				role="button">Learn about products and ingredients</a>
+				<a style='text-transform:none;' class='button mx-auto d-block' href={{eLink}} 
+				role="button">{{exception}}</a>
 			</div>
+			
 
 		</div>
 

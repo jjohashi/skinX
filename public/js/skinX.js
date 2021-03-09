@@ -35,7 +35,7 @@ function loginSubmit(result) {
     }
 
     else {
-        var newUser = {username:username, password:password};
+        var newUser = {username:username, password:password, userResults: "/results/3"};
         
         $.post('saveUser', newUser, postCallBack);
 
@@ -70,7 +70,7 @@ function signSubmit(e) {
     } 
 
     else {
-        var newUser = {username:username, password:password};
+        var newUser = {username:username, password:password, userResults: "/results/3"};
         
         $.post('saveUser', newUser, postCallBack);
 

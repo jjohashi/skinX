@@ -3,7 +3,7 @@
         {
             "username": "Wizard",
             "password": "wizard101",
-            "userResults": "/results/0"
+            "userResults": "/results/3"
         }
     ],
 
@@ -19,7 +19,9 @@
             "rec2summary": "Retinol is a superhero skincare ingredient that has a number of benefits like oil regulation, acne relief, wrinkle reduction, and the list goes on. Retinol works by increases the speed of your skin cell turnover process to reveal healthier, brighter skin. The downside of Retinol is that it can be irritating for certain skin types but oily skin is generally the best at receiving this potent, powerhouse ingredient.",
             "rec3": "Salicylic Acid",
             "rec3summary": "Salicylic Acid is another great ingredient for oily skin, especially if you’re experiencing breakouts as a result of excess oil. Often found in cleansers and toners, Salicylic Acid is an anti-inflammatory ingredient that plows through excess oil, breaks down dead skin cells, and attacks troublesome breakouts the source—deep inside your pores.",
-            "image":"oilyskin.svg"
+            "image":"oilyskin.svg",
+            "exception": "Learn about products and ingredients",
+            "eLink":"/education"
         },
         {
             "resid": 1,
@@ -32,7 +34,9 @@
             "rec2summary": "While hyaluronic acid draws moisture to the skin, squalane locks it in.",
             "rec3": "Ceramides",
             "rec3summary": "If your skin were made of bricks, ceramides would be the mortar—they’re essential for ensuring moisture doesn’t slip through the cracks. While your skin contains ceramides naturally, dry skin generally has fewer, so it’s best to supplement with ceramide-rich skincare.",
-            "image":"dryskin.svg"
+            "image":"dryskin.svg",
+            "exception": "Learn about products and ingredients",
+            "eLink":"/education"
         },
         {
             "resid": 2,
@@ -45,14 +49,27 @@
             "rec2summary": "Salicylic Acid is another great ingredient for oily skin, especially if you’re experiencing breakouts as a result of excess oil. Often found in cleansers and toners, Salicylic Acid is an anti-inflammatory ingredient that plows through excess oil, breaks down dead skin cells, and attacks troublesome breakouts the source—deep inside your pores.",
             "rec3": "Ceramides",
             "rec3summary": "If your skin were made of bricks, ceramides would be the mortar—they’re essential for ensuring moisture doesn’t slip through the cracks. While your skin contains ceramides naturally, dry skin generally has fewer, so it’s best to supplement with ceramide-rich skincare.",
-            "image":"combinationskin.svg"
+            "image":"combinationskin.svg",
+            "exception": "Learn about products and ingredients",
+            "eLink":"/education"
+        },
+
+        {
+            "resid": 3,
+            "image":"leaf.svg",
+            "title": "You have not taken the quiz yet!",
+            "exception": "Take skincare quiz",
+            "eLink":"/quiz"
         }
+
 
     ],
 
     "articles": [
         {
             "id": 0,
+            "grid1": "class=row",
+            "grid2": "col",
             "title": "Cleanser",
             "head": "yytp.svg",
             "pur": "Purpose: ",
@@ -79,6 +96,8 @@
         },
         {
             "id": 1,
+            "grid1": "",
+            "grid2": "col",
             "title": "Serum",
             "head": "serumArticles.svg",
             "pur": "Purpose: ",
@@ -105,6 +124,8 @@
         },
         {
             "id": 2,
+            "grid1": "class='row'",
+            "grid2": "col",
             "title": "Moisturizer",
             "head": "moistureArticles.svg",
             "pur": "Purpose: ",
@@ -130,6 +151,8 @@
         },
         {
             "id": 3,
+            "grid1": "",
+            "grid2": "col",
             "title": "Sunscreen",
             "head": "sunscreenArticles.svg",
             "pur": "Purpose: ",
