@@ -6,8 +6,7 @@
 </head>
 <body style="background-color: rgb(250, 250, 250);">
 
-	<div class='container'>
-		<div id='mainSpace'>
+	<div class='container' id='mainSpace'>
 		<p id='mainTitle'>Education  <img class='leafSize' src='/image/leaf.svg' alt='leaf-img'></p>
 		<!--<div class='row'>
 			<img class='rounded mx-auto d-block' src='/image/leaf.svg' alt='ed-img'>
@@ -30,27 +29,10 @@
 
 		</div>
 
-		<!--{{#each articles}}
-		<div class='row my-2'>
-			<div class='col'>
-				<a href='/articles/{{id}}' class='thumbnail'>
-				<button class="button mx-auto my-auto d-block"><img src='image/{{image}}'></button>
-				</a>
-			</div>
-		</div>
-		{{/each}}-->
-
-		</div>
-		
-		
-
 	</div>
 
-	<div>
-		{{> nav}}
-	</div>
-
-
+	{{> nav}}
+	
 	{{> bottom}}
 
 </body>
