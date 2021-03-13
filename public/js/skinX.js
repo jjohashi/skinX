@@ -51,7 +51,7 @@ function loginSubmit(result) {
 /*function for submitting sign up information*/
 function signSubmit(e) {
     e.preventDefault();
-    var username = $('#username').val();
+    var username = $('#email-field').val();
     var password = $('#password-field').val();
     var cpassword = $('#cpassword-field').val();
 
